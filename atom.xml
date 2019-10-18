@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Brewlin&#39;s Wiki</title>
+  
+  <subtitle>found everthing</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.huido.site/"/>
+  <updated>2019-10-18T06:01:48.315Z</updated>
+  <id>http://blog.huido.site/</id>
+  
+  <author>
+    <name>brewlin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Welcome Brewlin&#39;s Wiki Site</title>
+    <link href="http://blog.huido.site/wiki/index/"/>
+    <id>http://blog.huido.site/wiki/index/</id>
+    <published>2017-01-21T17:55:57.000Z</published>
+    <updated>2019-10-18T06:01:48.315Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
