@@ -62,7 +62,7 @@ history_control: # make you wiki has history version control in page
     server_link: https://github.com # recommend use GitHub https://github.com
     user: brewlin
     repertory: docs
-    branch: writing
+    branch: master
 
 # Comment
 comment:
