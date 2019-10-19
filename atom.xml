@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.huido.site/"/>
-  <updated>2019-10-19T14:19:11.990Z</updated>
+  <updated>2019-10-19T14:28:34.683Z</updated>
   <id>http://blog.huido.site/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.huido.site/wiki/net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/2.http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90/"/>
     <id>http://blog.huido.site/wiki/net-protocol/应用层/2.http协议解析/</id>
     <published>2019-10-18T13:28:59.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <content type="html"><![CDATA[<h2 id="http-报文协议"><a href="#http-报文协议" class="headerlink" title="http 报文协议"></a>http 报文协议</h2>]]></content>
     
@@ -50,7 +50,7 @@
     <link href="http://blog.huido.site/wiki/net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/1.%E5%BA%94%E7%94%A8%E5%B1%82%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
     <id>http://blog.huido.site/wiki/net-protocol/应用层/1.应用层前世今生/</id>
     <published>2019-10-17T13:28:59.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <content type="html"><![CDATA[<h2 id="应用层的作用"><a href="#应用层的作用" class="headerlink" title="应用层的作用"></a>应用层的作用</h2><p>对传输层协议对再次封装，例如对tcp进行封装对http、websocket协议等，以及http3协议基于udp协议的封装等</p>]]></content>
     
@@ -79,7 +79,7 @@
     <link href="http://blog.huido.site/wiki/net-protocol/%E5%89%8D%E8%A8%80/1.%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/"/>
     <id>http://blog.huido.site/wiki/net-protocol/前言/1.快速开始/</id>
     <published>2019-10-16T13:28:59.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <content type="html"><![CDATA[<h2 id="demo案例"><a href="#demo案例" class="headerlink" title="demo案例"></a>demo案例</h2><p><code>cmd</code>:该目录下为各协议的实现demo，提供api调用实现以及测试</p>]]></content>
     
@@ -109,7 +109,7 @@
     <link href="http://blog.huido.site/wiki/go-stl/GO%E6%A0%87%E5%87%86%E5%BA%93%E5%92%8C%E7%AE%97%E6%B3%95%E5%BA%94%E7%94%A8/"/>
     <id>http://blog.huido.site/wiki/go-stl/GO标准库和算法应用/</id>
     <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <content type="html"><![CDATA[<h1 id="go-stl"><a href="#go-stl" class="headerlink" title="go-stl"></a>go-stl</h1><p>todo..</p>]]></content>
     
@@ -135,7 +135,7 @@
     <link href="http://blog.huido.site/wiki/im-cloud/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8E%A8%E9%80%81%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
     <id>http://blog.huido.site/wiki/im-cloud/分布式推送中间件/</id>
     <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <content type="html"><![CDATA[<h1 id="im-cloud"><a href="#im-cloud" class="headerlink" title="im-cloud"></a>im-cloud</h1>]]></content>
     
@@ -164,7 +164,7 @@
     <link href="http://blog.huido.site/wiki/net-protocol/%E5%86%85%E6%A0%B8%E5%8D%8F%E8%AE%AE%E6%A0%88/"/>
     <id>http://blog.huido.site/wiki/net-protocol/内核协议栈/</id>
     <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <summary type="html">
     
@@ -184,7 +184,7 @@
     <link href="http://blog.huido.site/wiki/swoft-im/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%BA%94%E7%94%A8/"/>
     <id>http://blog.huido.site/wiki/swoft-im/微服务应用/</id>
     <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <summary type="html">
     
@@ -206,7 +206,7 @@
     <link href="http://blog.huido.site/wiki/index/"/>
     <id>http://blog.huido.site/wiki/index/</id>
     <published>2017-01-21T17:55:57.000Z</published>
-    <updated>2019-10-19T14:19:11.990Z</updated>
+    <updated>2019-10-19T14:28:34.683Z</updated>
     
     <content type="html"><![CDATA[<h2 id="net-protocol"><a href="#net-protocol" class="headerlink" title="@net-protocol"></a>@net-protocol</h2><p>基于go模拟内核协议栈 实现链路层、网络层、传输层、应用层 网络协议栈 ，使用虚拟网卡实现</p><h2 id="go-stl"><a href="#go-stl" class="headerlink" title="@go-stl"></a>@go-stl</h2><p>Golang Standard Template Library</p><h2 id="im-cloud"><a href="#im-cloud" class="headerlink" title="@im-cloud"></a>@im-cloud</h2><p>原生swoole4 全协程化分布式中间件、多节点扩容、多节点服务</p><h2 id="swoft-im"><a href="#swoft-im" class="headerlink" title="@swoft-im"></a>@swoft-im</h2><p>基于swoft-cloud的微服务架构，最小化拆分粒度，PHP7、多进程、协程、异步任务、mysql连接池、redi连接池、rpc连接池、服务治理、服务注册与发现、Aop切面、全注解 <a href="http://chat.huido.site">http://chat.huido.site</a></p>]]></content>
     
