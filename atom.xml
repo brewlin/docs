@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.huido.site/"/>
-  <updated>2019-10-19T14:28:34.683Z</updated>
+  <updated>2019-10-21T06:35:34.981Z</updated>
   <id>http://blog.huido.site/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>http协议解析</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/2.http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/应用层/2.http协议解析/</id>
+    <link href="http://blog.huido.site/wiki/1.net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/2.http%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90/"/>
+    <id>http://blog.huido.site/wiki/1.net-protocol/应用层/2.http协议解析/</id>
     <published>2019-10-18T13:28:59.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
+    <updated>2019-10-21T06:35:34.981Z</updated>
     
     <content type="html"><![CDATA[<h2 id="http-报文协议"><a href="#http-报文协议" class="headerlink" title="http 报文协议"></a>http 报文协议</h2>]]></content>
     
@@ -34,9 +34,9 @@
     
     </summary>
     
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
+      <category term="1.net-protocol" scheme="http://blog.huido.site/categories/1-net-protocol/"/>
     
-      <category term="应用层" scheme="http://blog.huido.site/categories/net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/"/>
+      <category term="应用层" scheme="http://blog.huido.site/categories/1-net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/"/>
     
     
       <category term="Go" scheme="http://blog.huido.site/tags/Go/"/>
@@ -47,10 +47,10 @@
   
   <entry>
     <title>应用层前世今生</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/1.%E5%BA%94%E7%94%A8%E5%B1%82%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/应用层/1.应用层前世今生/</id>
+    <link href="http://blog.huido.site/wiki/1.net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/1.%E5%BA%94%E7%94%A8%E5%B1%82%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F/"/>
+    <id>http://blog.huido.site/wiki/1.net-protocol/应用层/1.应用层前世今生/</id>
     <published>2019-10-17T13:28:59.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
+    <updated>2019-10-21T06:35:34.981Z</updated>
     
     <content type="html"><![CDATA[<h2 id="应用层的作用"><a href="#应用层的作用" class="headerlink" title="应用层的作用"></a>应用层的作用</h2><p>对传输层协议对再次封装，例如对tcp进行封装对http、websocket协议等，以及http3协议基于udp协议的封装等</p>]]></content>
     
@@ -63,9 +63,9 @@
     
     </summary>
     
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
+      <category term="1.net-protocol" scheme="http://blog.huido.site/categories/1-net-protocol/"/>
     
-      <category term="应用层" scheme="http://blog.huido.site/categories/net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/"/>
+      <category term="应用层" scheme="http://blog.huido.site/categories/1-net-protocol/%E5%BA%94%E7%94%A8%E5%B1%82/"/>
     
     
       <category term="Go" scheme="http://blog.huido.site/tags/Go/"/>
@@ -76,10 +76,10 @@
   
   <entry>
     <title>快速开始</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/%E5%89%8D%E8%A8%80/1.%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/前言/1.快速开始/</id>
+    <link href="http://blog.huido.site/wiki/1.net-protocol/%E5%89%8D%E8%A8%80/1.%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/"/>
+    <id>http://blog.huido.site/wiki/1.net-protocol/前言/1.快速开始/</id>
     <published>2019-10-16T13:28:59.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
+    <updated>2019-10-21T06:35:34.981Z</updated>
     
     <content type="html"><![CDATA[<h2 id="demo案例"><a href="#demo案例" class="headerlink" title="demo案例"></a>demo案例</h2><p><code>cmd</code>:该目录下为各协议的实现demo，提供api调用实现以及测试</p>]]></content>
     
@@ -93,9 +93,36 @@
     
     </summary>
     
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
+      <category term="1.net-protocol" scheme="http://blog.huido.site/categories/1-net-protocol/"/>
     
-      <category term="前言" scheme="http://blog.huido.site/categories/net-protocol/%E5%89%8D%E8%A8%80/"/>
+      <category term="前言" scheme="http://blog.huido.site/categories/1-net-protocol/%E5%89%8D%E8%A8%80/"/>
+    
+    
+      <category term="Go" scheme="http://blog.huido.site/tags/Go/"/>
+    
+      <category term="Protocol" scheme="http://blog.huido.site/tags/Protocol/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>内核协议栈</title>
+    <link href="http://blog.huido.site/wiki/1.net-protocol/%E5%86%85%E6%A0%B8%E5%8D%8F%E8%AE%AE%E6%A0%88/"/>
+    <id>http://blog.huido.site/wiki/1.net-protocol/内核协议栈/</id>
+    <published>2017-10-24T13:28:59.000Z</published>
+    <updated>2019-10-21T06:35:34.981Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="net-protocol"><a href="#net-protocol" class="headerlink" title="net-protocol"></a>net-protocol</h1><p><br><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brewlin/net-protocol"><br><img alt="GitHub" src="https://img.shields.io/github/license/brewlin/net-protocol"><br><img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brewlin/net-protocol"><br>  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/brewlin/net-protocol"><br>  </p><p>基于go 实现链路层、网络层、传输层、应用层 网络协议栈 ，使用虚拟网卡实现</p><h2 id="docs"><a href="#docs" class="headerlink" title="@docs"></a>@docs</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">相关md文档在cmd目录下，以及相关协议的demo测试</span><br></pre></td></tr></table></figure><p><code>./cmd/*.md</code></p><h2 id="application-应用层"><a href="#application-应用层" class="headerlink" title="@application 应用层"></a>@application 应用层</h2><ul><li style="list-style: none"><input type="checkbox" checked></input> http <a href="./cmd/http.md">docs</a></li><li style="list-style: none"><input type="checkbox" checked></input> websocket <a href="./cmd/websocket.md">docs</a></li></ul><h2 id="transport-传输层"><a href="#transport-传输层" class="headerlink" title="@transport 传输层"></a>@transport 传输层</h2><ul><li style="list-style: none"><input type="checkbox" checked></input> tcp <a href="./cmd/tcp.md">docs</a></li><li style="list-style: none"><input type="checkbox" checked></input> udp <a href="./cmd/udp.md">docs</a></li><li style="list-style: none"><input type="checkbox" checked></input> port 端口机制</li></ul><h2 id="network-网络层"><a href="#network-网络层" class="headerlink" title="@network 网络层"></a>@network 网络层</h2><ul><li style="list-style: none"><input type="checkbox" checked></input> icmp</li><li style="list-style: none"><input type="checkbox" checked></input> ipv4</li><li style="list-style: none"><input type="checkbox" checked></input> ipv6</li></ul><h2 id="link-链路层"><a href="#link-链路层" class="headerlink" title="@link 链路层"></a>@link 链路层</h2><ul><li style="list-style: none"><input type="checkbox" checked></input> arp <a href="./cmd/arp.md">docs</a></li><li style="list-style: none"><input type="checkbox" checked></input> ethernet</li></ul><h2 id="物理层"><a href="#物理层" class="headerlink" title="@物理层"></a>@物理层</h2><ul><li style="list-style: none"><input type="checkbox" checked></input> tun tap 虚拟网卡的实现</li></ul><h2 id="协议相关api"><a href="#协议相关api" class="headerlink" title="协议相关api"></a>协议相关api</h2><h3 id="1-应用层相关协议"><a href="#1-应用层相关协议" class="headerlink" title="1.应用层相关协议"></a>1.应用层相关协议</h3><p>应用层暂时只实现了<code>http</code>、<code>websocket</code>等文本协议。都基于tcp、对tcp等进行二次封装</p><p><a href="./http-api.md">http api</a> :<code>http-api.md</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">http 协议报文</span><br><span class="line">GET /chat HTTP/1.1</span><br><span class="line">Host: server.example.com</span><br><span class="line">Upgrade: websocket</span><br><span class="line">Connection: Upgrade</span><br><span class="line">Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==</span><br><span class="line">Origin: http://example.com</span><br><span class="line">Sec-WebSocket-Protcol: chat, superchat</span><br><span class="line">Sec-WebSocket-Version: 13</span><br></pre></td></tr></table></figure></p><p><a href="./websocket-api.md">websocket api</a> : <code>websocket-api.md</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">websocket 数据帧报文</span><br><span class="line"></span><br><span class="line">  0               1               2               3               4</span><br><span class="line">  0 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8</span><br><span class="line">  +-+-+-+-+-------+-+-------------+-------------------------------+</span><br><span class="line">  |F|R|R|R| opcode|M| Payload len |    Extended payload length    |</span><br><span class="line">  |I|S|S|S|  (4)  |A|     (7)     |             (16/64)           |</span><br><span class="line">  |N|V|V|V|       |S|             |   (if payload len==126/127)   |</span><br><span class="line">  | |1|2|3|       |K|             |                               |</span><br><span class="line">  +-+-+-+-+-------+-+-------------+ - - - - - - - - - - - - - - - +</span><br><span class="line">  |     Extended payload length continued, if payload len == 127  |</span><br><span class="line">  + - - - - - - - - - - - - - - - +-------------------------------+</span><br><span class="line">  |                               |Masking-key, if MASK set to 1  |</span><br><span class="line">  +-------------------------------+-------------------------------+</span><br><span class="line">  | Masking-key (continued)       |          Payload Data         |</span><br><span class="line">  +-------------------------------- - - - - - - - - - - - - - - - +</span><br><span class="line">  :                     Payload Data continued ...                :</span><br><span class="line">  + - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +</span><br><span class="line">  |                     Payload Data continued ...                |</span><br><span class="line">  +---------------------------------------------------------------+</span><br></pre></td></tr></table></figure></p><h3 id="2-传输层相关协议"><a href="#2-传输层相关协议" class="headerlink" title="2.传输层相关协议"></a>2.传输层相关协议</h3><p>传输层实现了<code>upd</code>、<code>tcp</code>、灯协议，并实现了主要接口</p><p><a href="./tcp-api.md">tcp api</a>:<code>tcp-api.md</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">     tcp 首部协议报文</span><br><span class="line">0               1               2               3               4</span><br><span class="line">0 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|          Source Port          |       Destination Port        |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|                        Sequence Number                        |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|                    Acknowledgment Number                      |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|  Data |           |U|A|P|R|S|F|                               |</span><br><span class="line">| Offset| Reserved  |R|C|S|S|Y|I|            Window             |</span><br><span class="line">|       |           |G|K|H|T|N|N|                               |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|           Checksum            |         Urgent Pointer        |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|                    Options                    |    Padding    |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|                             data                              |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br></pre></td></tr></table></figure><p><a href="./udp-api.md">udp-api</a>:<code>./udp-api.md</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">udp 协议报文</span><br></pre></td></tr></table></figure></p><p>端口机制</p><h3 id="3-网络层相关协议"><a href="#3-网络层相关协议" class="headerlink" title="3.网络层相关协议"></a>3.网络层相关协议</h3><p><a href="./ipv-api.md">ip</a>:<code>ipv4-api.md</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">              ip头部协议报文</span><br><span class="line">0               1               2               3               4</span><br><span class="line">0 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|Version|  LHL  | Type of Service |        Total Length         |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|  Identification(fragment Id)    |Flags|  Fragment Offset      |</span><br><span class="line">|           16 bits               |R|D|M|       13 bits         |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">| Time-To-Live  |   Protocol      |      Header Checksum        |</span><br><span class="line">| ttl(8 bits)   |    8 bits       |          16 bits            |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|               Source IP Address (32 bits)                     |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|              Destination Ip Address (32 bits)                 |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br><span class="line">|                    Options (*** bits)          |  Padding     |</span><br><span class="line">+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;net-protocol&quot;&gt;&lt;a href=&quot;#net-protocol&quot; class=&quot;headerlink&quot; title=&quot;net-protocol&quot;&gt;&lt;/a&gt;net-protocol&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;img alt=&quot;GitHub last comm
+      
+    
+    </summary>
+    
+      <category term="1.net-protocol" scheme="http://blog.huido.site/categories/1-net-protocol/"/>
     
     
       <category term="Go" scheme="http://blog.huido.site/tags/Go/"/>
@@ -106,10 +133,10 @@
   
   <entry>
     <title>GO标准库和算法应用</title>
-    <link href="http://blog.huido.site/wiki/go-stl/GO%E6%A0%87%E5%87%86%E5%BA%93%E5%92%8C%E7%AE%97%E6%B3%95%E5%BA%94%E7%94%A8/"/>
-    <id>http://blog.huido.site/wiki/go-stl/GO标准库和算法应用/</id>
+    <link href="http://blog.huido.site/wiki/2.go-stl/GO%E6%A0%87%E5%87%86%E5%BA%93%E5%92%8C%E7%AE%97%E6%B3%95%E5%BA%94%E7%94%A8/"/>
+    <id>http://blog.huido.site/wiki/2.go-stl/GO标准库和算法应用/</id>
     <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
+    <updated>2019-10-21T06:35:34.981Z</updated>
     
     <content type="html"><![CDATA[<h1 id="go-stl"><a href="#go-stl" class="headerlink" title="go-stl"></a>go-stl</h1><p>todo..</p>]]></content>
     
@@ -123,7 +150,7 @@
     
     </summary>
     
-      <category term="go-stl" scheme="http://blog.huido.site/categories/go-stl/"/>
+      <category term="2.go-stl" scheme="http://blog.huido.site/categories/2-go-stl/"/>
     
     
       <category term="Go" scheme="http://blog.huido.site/tags/Go/"/>
@@ -132,10 +159,10 @@
   
   <entry>
     <title>分布式推送中间件</title>
-    <link href="http://blog.huido.site/wiki/im-cloud/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8E%A8%E9%80%81%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
-    <id>http://blog.huido.site/wiki/im-cloud/分布式推送中间件/</id>
+    <link href="http://blog.huido.site/wiki/3.im-cloud/%E5%88%86%E5%B8%83%E5%BC%8F%E6%8E%A8%E9%80%81%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
+    <id>http://blog.huido.site/wiki/3.im-cloud/分布式推送中间件/</id>
     <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
+    <updated>2019-10-21T06:35:34.981Z</updated>
     
     <content type="html"><![CDATA[<h1 id="im-cloud"><a href="#im-cloud" class="headerlink" title="im-cloud"></a>im-cloud</h1>]]></content>
     
@@ -148,7 +175,7 @@
     
     </summary>
     
-      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+      <category term="3.im-cloud" scheme="http://blog.huido.site/categories/3-im-cloud/"/>
     
     
       <category term="PHP" scheme="http://blog.huido.site/tags/PHP/"/>
@@ -160,37 +187,17 @@
   </entry>
   
   <entry>
-    <title>内核协议栈</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/%E5%86%85%E6%A0%B8%E5%8D%8F%E8%AE%AE%E6%A0%88/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/内核协议栈/</id>
-    <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
-    
-    
-      <category term="Go" scheme="http://blog.huido.site/tags/Go/"/>
-    
-      <category term="Protocol" scheme="http://blog.huido.site/tags/Protocol/"/>
-    
-  </entry>
-  
-  <entry>
     <title>微服务应用</title>
-    <link href="http://blog.huido.site/wiki/swoft-im/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%BA%94%E7%94%A8/"/>
-    <id>http://blog.huido.site/wiki/swoft-im/微服务应用/</id>
+    <link href="http://blog.huido.site/wiki/4.swoft-im/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%BA%94%E7%94%A8/"/>
+    <id>http://blog.huido.site/wiki/4.swoft-im/微服务应用/</id>
     <published>2017-10-24T13:28:59.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
+    <updated>2019-10-21T06:35:34.981Z</updated>
     
     <summary type="html">
     
     </summary>
     
-      <category term="swoft-im" scheme="http://blog.huido.site/categories/swoft-im/"/>
+      <category term="4.swoft-im" scheme="http://blog.huido.site/categories/4-swoft-im/"/>
     
     
       <category term="PHP" scheme="http://blog.huido.site/tags/PHP/"/>
@@ -206,7 +213,7 @@
     <link href="http://blog.huido.site/wiki/index/"/>
     <id>http://blog.huido.site/wiki/index/</id>
     <published>2017-01-21T17:55:57.000Z</published>
-    <updated>2019-10-19T14:28:34.683Z</updated>
+    <updated>2019-10-21T06:35:34.981Z</updated>
     
     <content type="html"><![CDATA[<h2 id="net-protocol"><a href="#net-protocol" class="headerlink" title="@net-protocol"></a>@net-protocol</h2><p>基于go模拟内核协议栈 实现链路层、网络层、传输层、应用层 网络协议栈 ，使用虚拟网卡实现</p><h2 id="go-stl"><a href="#go-stl" class="headerlink" title="@go-stl"></a>@go-stl</h2><p>Golang Standard Template Library</p><h2 id="im-cloud"><a href="#im-cloud" class="headerlink" title="@im-cloud"></a>@im-cloud</h2><p>原生swoole4 全协程化分布式中间件、多节点扩容、多节点服务</p><h2 id="swoft-im"><a href="#swoft-im" class="headerlink" title="@swoft-im"></a>@swoft-im</h2><p>基于swoft-cloud的微服务架构，最小化拆分粒度，PHP7、多进程、协程、异步任务、mysql连接池、redi连接池、rpc连接池、服务治理、服务注册与发现、Aop切面、全注解 <a href="http://chat.huido.site">http://chat.huido.site</a></p>]]></content>
     
