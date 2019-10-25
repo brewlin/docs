@@ -1,8 +1,8 @@
 ---
 title: im-cloud 分布式推送中间件
 toc: false
-date: 2017-10-24 21:28:59
-tags: [PHP,Swoole,RabbitMQ]
+date: 2017-10-25 21:28:59
+tags: [php,swoole,rabbitmq]
 ---
 
 <p align="center">
@@ -34,15 +34,15 @@ tags: [PHP,Swoole,RabbitMQ]
 ## 流程图
 im-cloud 连接流程图
 ----
-![](/im-cloud/im-cloud-connect.png)
+![](/images/im-cloud/im-cloud-connect.png)
 
 im-cloud 数据流程图
 -----
-![](/im-cloud/im-cloud-process.png)
+![](/images/im-cloud/im-cloud-process.png)
 
 im-cloud 业务流程
 -----
-![](/im-cloud/im-cloudt-task.png)
+![](/images/im-cloud/im-cloudt-task.png)
 
 ## 组件依赖
 > 相关组件为纯swoole实现
