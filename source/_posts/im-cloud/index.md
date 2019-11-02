@@ -11,7 +11,7 @@ tags: [php,swoole,rabbitmq]
     </a>
 </p>
 
-基于原生 swoole 全协程化构建 im-cloud中间件，多节点扩容
+基于原生 swoole 全协程化构建 im-cloud中间件，多节点扩容 https://github.com/brewlin/im-cloud
 
 
 ## 概述
