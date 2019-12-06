@@ -24,7 +24,7 @@ func main(){
 	}
 	cli.SetMethod("GET")
 	cli.SetData("test")
-	res,err := cli.GetBody()
+	res,err := cli.GetResult()
 	fmt.Println(res)
 
 }
@@ -58,6 +58,6 @@ cli,err := http.NewClient("http://10.0.2.15:8080/test")
 ## @获取响应结果
 该方法真正执行tcp连接，发送数据，和读取响应数据
 ```go
-	res,err := cli.GetBody()
+	res,err := cli.GetResult()
 ```
 
