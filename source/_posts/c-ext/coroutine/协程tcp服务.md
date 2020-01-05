@@ -8,7 +8,7 @@ tags: [linux,c,php,ext,coroutine,epoll,socket,tcp]
 创建协程版server，封装所有协程api，所有阻塞操作都会触发协程切换
 
 ## @Lib\Coroutine\Server
-```
+```php
 //初始化全局对象 epoll等内存空间初始化
 lib_event_init();
 
