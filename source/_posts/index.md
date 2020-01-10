@@ -16,3 +16,5 @@ Golang Standard Template Library
 基于c,c++ 开发php对象扩展，达到原生c语言级别性能
 ## @[`swoft-im`](https://github.com/brewlin/swoft-im)
 基于swoft-cloud的微服务架构，最小化拆分粒度，PHP7、多进程、协程、异步任务、mysql连接池、redi连接池、rpc连接池、服务治理、服务注册与发现、Aop切面、全注解 http://chat.huido.site
+## @[`swoole-im`](https://github.com/brewlin/swoole-im)
+[`swoole聊天室`](http://im.huido.site)
