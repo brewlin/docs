@@ -13,20 +13,25 @@ tags: [linux,c,php,ext,coroutine,epoll,socket,tcp]
 lib_event_init();
 
 //协程运行
-cgo(function(){
-    $serv = new Lib\Coroutine\Server("127.0.0.1", 9999);
-    while(1){
-        $connfd = $serv->accept();
-        cgo(function()use($serv,$connfd){
-            $msg = $serv->recv($connfd);
-            var_dump($msg);
-            $serv->send($connfd,$msg);
-            $serv->close($connfd);
-
+cgo(function ()
+{
+        $server = new Lib\Coroutine\Server("127.0.0.1", 9991);
+        $server->set_handler(function (Lib\Coroutine\Socket $conn) use($server) {
+                    $data = $conn->recv();
+                    $responseStr = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nConnection: close\r\nContent-Length: 11\r\n\r\nhello world\r\n";
+                    $conn->send($responseStr);
+                    $conn->close();
+                    // Sco::sleep(0.01);
         });
-    }
+        $server->start();
 });
+
 
 //epoll event 轮循 检查事件
 lib_event_wait();
 ```
+
+## @__construct 初始化
+
+## @set_handler($callback)  回调触发事件
+## start() 启动监听
