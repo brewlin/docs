@@ -13,6 +13,12 @@ tags: [c,c++,php,extension]
 ```php
 namespace Lib;
 ```
+## @env
+```
+supoort:
+> php7.3.5
+> php7.3.10
+```
 项目中对于协程相关底层实现参考 `https://github.com/php-extension-research/study.git` 实现，并在此之上做了一些重构，详情请关注原协程实现
 ## @`cgo()`
 创建一个协程运行

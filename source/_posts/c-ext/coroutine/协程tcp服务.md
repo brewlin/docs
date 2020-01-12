@@ -17,11 +17,15 @@ cgo(function ()
 {
         $server = new Lib\Coroutine\Server("127.0.0.1", 9991);
         $server->set_handler(function (Lib\Coroutine\Socket $conn) use($server) {
-                    $data = $conn->recv();
-                    $responseStr = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nConnection: close\r\nContent-Length: 11\r\n\r\nhello world\r\n";
-                    $conn->send($responseStr);
-                    $conn->close();
-                    // Sco::sleep(0.01);
+                $data = $conn->recv();
+                $responseStr = "HTTP/1.1 200 OK\r\n
+                                Content-Type: text/html\r\n
+                                Connection: close\r\n
+                                Content-Length: 11\r\n\r\n
+                                hello world\r\n";
+                $conn->send($responseStr);
+                $conn->close();
+                // Sco::sleep(0.01);
         });
         $server->start();
 });
