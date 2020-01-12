@@ -1,12 +1,15 @@
 ---
 title: event
 toc: true
-date: 2020-01-05 21:28:59
+date: 2020-01-12 21:28:59
 tags: [linux,c,php,ext,coroutine,epoll]
 ---
 
 ```php
 lib_event_init();
+
+dosthing...
+
 
 lib_event_wait();
 ```
