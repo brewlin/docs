@@ -30,3 +30,8 @@ supoort:
 提供定时任务和对于timer操作，基于epoll阻塞实现定时器，采用链表保存时间任务，有待提高性能
 ## @`Lib/Coroutine/Server`
 提供携程化socket服务，监听tcp协议
+## @`Lib/Coroutine/Socket`
+## @`event`
+显示声明异步事件模式
+## @`Hook`
+对原生php底层函数进行hook替换
