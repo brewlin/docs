@@ -19,6 +19,7 @@ cgo(function(){
 ```
 ## @hook sleep
 ```php
+Lib\Runtime::enableCoroutine();
 cgo(function(){
     sleep(1);//协程切换
 });
