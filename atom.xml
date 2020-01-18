@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.huido.site/"/>
-  <updated>2020-01-18T07:47:49.420Z</updated>
+  <updated>2020-01-18T07:52:59.732Z</updated>
   <id>http://blog.huido.site/</id>
   
   <author>
@@ -18,10 +18,50 @@
   
   <entry>
     <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/process/process/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/process/process/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="process" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/process/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/task/task/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/task/task/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="task" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/task/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/database/db/"/>
     <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/database/db/</id>
-    <published>2020-01-18T07:47:49.420Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
     
     <summary type="html">
     
@@ -38,10 +78,10 @@
   
   <entry>
     <title></title>
-    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/task/task/"/>
-    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/task/task/</id>
-    <published>2020-01-18T07:47:49.420Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/discovery/discovery/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/discovery/discovery/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
     
     <summary type="html">
     
@@ -51,8 +91,165 @@
     
       <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
     
-      <category term="task" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/task/"/>
+      <category term="discovery" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/discovery/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/grpc/grpc/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/grpc/grpc/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="grpc" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/grpc/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/log/log/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/log/log/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="log" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/log/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/memeory/memeory/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/memeory/memeory/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="memeory" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/memeory/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/redis/redis/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/redis/redis/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="redis" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/redis/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/queue/queue/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/queue/queue/</id>
+    <published>2020-01-18T07:52:59.732Z</published>
+    <updated>2020-01-18T07:52:59.732Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="queue" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/queue/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.huido.site/wiki/im-cloud/3.%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/core/core/"/>
+    <id>http://blog.huido.site/wiki/im-cloud/3.相关组件/core/core/</id>
+    <published>2020-01-18T07:52:59.728Z</published>
+    <updated>2020-01-18T07:52:59.728Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="im-cloud" scheme="http://blog.huido.site/categories/im-cloud/"/>
+    
+      <category term="3.相关组件" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="core" scheme="http://blog.huido.site/categories/im-cloud/3-%E7%9B%B8%E5%85%B3%E7%BB%84%E4%BB%B6/core/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>runtime</title>
+    <link href="http://blog.huido.site/wiki/c-ext/hook/runtime/"/>
+    <id>http://blog.huido.site/wiki/c-ext/hook/runtime/</id>
+    <published>2020-01-13T13:28:59.000Z</published>
+    <updated>2020-01-18T07:52:59.728Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Lib-runtime-enableCorutine-启动hook机制"><a href="#Lib-runtime-enableCorutine-启动hook机制" class="headerlink" title="Lib\runtime::enableCorutine 启动hook机制"></a><code>Lib\runtime::enableCorutine</code> 启动hook机制</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">Lib\Runtime::enableCoroutine();</span><br><span class="line"></span><br><span class="line">cgo(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    sleep(<span class="number">1</span>); <span class="comment">// == Cco::sleep(1);</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Lib-runtime-enableCorutine-启动hook机制&quot;&gt;&lt;a href=&quot;#Lib-runtime-enableCorutine-启动hook机制&quot; class=&quot;headerlink&quot; title=&quot;Lib\runtime::enableCor
+      
+    
+    </summary>
+    
+      <category term="c-ext" scheme="http://blog.huido.site/categories/c-ext/"/>
+    
+      <category term="hook" scheme="http://blog.huido.site/categories/c-ext/hook/"/>
+    
+    
+      <category term="linux" scheme="http://blog.huido.site/tags/linux/"/>
+    
+      <category term="c" scheme="http://blog.huido.site/tags/c/"/>
+    
+      <category term="php" scheme="http://blog.huido.site/tags/php/"/>
+    
+      <category term="ext" scheme="http://blog.huido.site/tags/ext/"/>
+    
+      <category term="hook" scheme="http://blog.huido.site/tags/hook/"/>
+    
+      <category term="runtime" scheme="http://blog.huido.site/tags/runtime/"/>
     
   </entry>
   
@@ -61,7 +258,7 @@
     <link href="http://blog.huido.site/wiki/c-ext/hook/sleep/"/>
     <id>http://blog.huido.site/wiki/c-ext/hook/sleep/</id>
     <published>2020-01-13T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
     <content type="html"><![CDATA[<p>在扩展内替换原生php内置sleep函数，使原有基于sleep的代码自动进行替换为协程<code>Cco::sleep()</code>调用</p><h2 id="协程sleep"><a href="#协程sleep" class="headerlink" title="@协程sleep"></a>@协程sleep</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cgo(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    Cco::sleep(<span class="number">1</span>);<span class="comment">//协程切换</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h2 id="原生sleep"><a href="#原生sleep" class="headerlink" title="@原生sleep"></a>@原生sleep</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cgo(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    sleep(<span class="number">1</span>);<span class="comment">//进程阻塞</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h2 id="hook-sleep"><a href="#hook-sleep" class="headerlink" title="@hook sleep"></a>@hook sleep</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Lib\Runtime::enableCoroutine();</span><br><span class="line">cgo(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    sleep(<span class="number">1</span>);<span class="comment">//协程切换</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -95,26 +292,26 @@
   </entry>
   
   <entry>
-    <title>runtime</title>
-    <link href="http://blog.huido.site/wiki/c-ext/hook/runtime/"/>
-    <id>http://blog.huido.site/wiki/c-ext/hook/runtime/</id>
-    <published>2020-01-13T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
+    <title>event</title>
+    <link href="http://blog.huido.site/wiki/c-ext/event/event/"/>
+    <id>http://blog.huido.site/wiki/c-ext/event/event/</id>
+    <published>2020-01-12T13:28:59.000Z</published>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Lib-runtime-enableCorutine-启动hook机制"><a href="#Lib-runtime-enableCorutine-启动hook机制" class="headerlink" title="Lib\runtime::enableCorutine 启动hook机制"></a><code>Lib\runtime::enableCorutine</code> 启动hook机制</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">Lib\Runtime::enableCoroutine();</span><br><span class="line"></span><br><span class="line">cgo(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    sleep(<span class="number">1</span>); <span class="comment">// == Cco::sleep(1);</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">lib_event_init();</span><br><span class="line"></span><br><span class="line">dosthing...</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">lib_event_wait();</span><br></pre></td></tr></table></figure><h2 id="lib-event-init-初始化全局变量和申请内存空间"><a href="#lib-event-init-初始化全局变量和申请内存空间" class="headerlink" title="@lib_event_init() 初始化全局变量和申请内存空间"></a>@lib_event_init() 初始化全局变量和申请内存空间</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">LibG;</span><br><span class="line">LibG.poll</span><br><span class="line">LibG.poll.epollfd;</span><br></pre></td></tr></table></figure><h2 id="lib-event-wait-轮训获取可读可写事件"><a href="#lib-event-wait-轮训获取可读可写事件" class="headerlink" title="@lib_event_wait() 轮训获取可读可写事件"></a>@lib_event_wait() 轮训获取可读可写事件</h2><p><code>timer、socket、server、sleep</code>等模块依赖于event，所以需要显示调用event<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">while(LibG.running)&#123;</span><br><span class="line">    epoll_wait(....)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Lib-runtime-enableCorutine-启动hook机制&quot;&gt;&lt;a href=&quot;#Lib-runtime-enableCorutine-启动hook机制&quot; class=&quot;headerlink&quot; title=&quot;Lib\runtime::enableCor
+        &lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;
       
     
     </summary>
     
       <category term="c-ext" scheme="http://blog.huido.site/categories/c-ext/"/>
     
-      <category term="hook" scheme="http://blog.huido.site/categories/c-ext/hook/"/>
+      <category term="event" scheme="http://blog.huido.site/categories/c-ext/event/"/>
     
     
       <category term="linux" scheme="http://blog.huido.site/tags/linux/"/>
@@ -125,9 +322,9 @@
     
       <category term="ext" scheme="http://blog.huido.site/tags/ext/"/>
     
-      <category term="hook" scheme="http://blog.huido.site/tags/hook/"/>
+      <category term="coroutine" scheme="http://blog.huido.site/tags/coroutine/"/>
     
-      <category term="runtime" scheme="http://blog.huido.site/tags/runtime/"/>
+      <category term="epoll" scheme="http://blog.huido.site/tags/epoll/"/>
     
   </entry>
   
@@ -136,7 +333,7 @@
     <link href="http://blog.huido.site/wiki/c-ext/coroutine/%E5%8D%8F%E7%A8%8Bsocket/"/>
     <id>http://blog.huido.site/wiki/c-ext/coroutine/协程socket/</id>
     <published>2020-01-12T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.416Z</updated>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
     <content type="html"><![CDATA[<p>创建协程版socket，封装所有协程api，所有阻塞操作都会触发协程切换</p><h2 id="Lib-Coroutine-Socket"><a href="#Lib-Coroutine-Socket" class="headerlink" title="@Lib\Coroutine\Socket"></a>@Lib\Coroutine\Socket</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">lib_event_init();</span><br><span class="line"></span><br><span class="line">cgo(<span class="function"><span class="keyword">function</span> <span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    $socket = <span class="keyword">new</span> Lib\Coroutine\Socket(AF_INET, SOCK_STREAM, IPPROTO_IP);</span><br><span class="line">    <span class="keyword">if</span>($socket-&gt;fd &lt; <span class="number">0</span>)&#123;</span><br><span class="line">        var_dump(<span class="string">"err"</span>);<span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    $socket-&gt;bind(<span class="string">"127.0.0.1"</span>, <span class="number">9999</span>);</span><br><span class="line">    $socket-&gt;listen();</span><br><span class="line">    <span class="keyword">while</span> (<span class="keyword">true</span>) &#123;</span><br><span class="line">        $conn = $socket-&gt;accept();</span><br><span class="line">        cgo(<span class="function"><span class="keyword">function</span> <span class="params">()</span> <span class="title">use</span><span class="params">($conn)</span></span></span><br><span class="line"><span class="function">        </span>&#123;</span><br><span class="line">            $data = $conn-&gt;recv();</span><br><span class="line">            $responseStr = <span class="string">"HTTP/1.1 200 OK\r\n</span></span><br><span class="line"><span class="string">                        Content-Type: text/html\r\n</span></span><br><span class="line"><span class="string">                        Connection: close\r\n</span></span><br><span class="line"><span class="string">                        Content-Length: 11\r\n\r\n</span></span><br><span class="line"><span class="string">                        hello world\r\n"</span>;</span><br><span class="line">            $conn-&gt;send($responseStr);</span><br><span class="line">            $conn-&gt;close();</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">lib_event_wait();</span><br></pre></td></tr></table></figure><h2 id="Constant"><a href="#Constant" class="headerlink" title="@Constant"></a>@Constant</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AF_INET, SOCK_STREAM, IPPROTO_IP</span><br></pre></td></tr></table></figure><h2 id="construct-初始化"><a href="#construct-初始化" class="headerlink" title="@__construct 初始化"></a>@__construct 初始化</h2><h2 id="bind-绑定端口"><a href="#bind-绑定端口" class="headerlink" title="@bind  绑定端口"></a>@bind  绑定端口</h2><h2 id="listen-启动监听"><a href="#listen-启动监听" class="headerlink" title="@listen 启动监听"></a>@listen 启动监听</h2><h2 id="accept-接收新连接"><a href="#accept-接收新连接" class="headerlink" title="@accept 接收新连接"></a>@accept 接收新连接</h2><h2 id="recv-读取缓冲区数据"><a href="#recv-读取缓冲区数据" class="headerlink" title="@recv   读取缓冲区数据"></a>@recv   读取缓冲区数据</h2><h2 id="send-向对端连接写入数据"><a href="#send-向对端连接写入数据" class="headerlink" title="@send   向对端连接写入数据"></a>@send   向对端连接写入数据</h2><h2 id="close-关闭连接"><a href="#close-关闭连接" class="headerlink" title="@close  关闭连接"></a>@close  关闭连接</h2>]]></content>
     
@@ -174,48 +371,11 @@
   </entry>
   
   <entry>
-    <title>event</title>
-    <link href="http://blog.huido.site/wiki/c-ext/event/event/"/>
-    <id>http://blog.huido.site/wiki/c-ext/event/event/</id>
-    <published>2020-01-12T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">lib_event_init();</span><br><span class="line"></span><br><span class="line">dosthing...</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">lib_event_wait();</span><br></pre></td></tr></table></figure><h2 id="lib-event-init-初始化全局变量和申请内存空间"><a href="#lib-event-init-初始化全局变量和申请内存空间" class="headerlink" title="@lib_event_init() 初始化全局变量和申请内存空间"></a>@lib_event_init() 初始化全局变量和申请内存空间</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">LibG;</span><br><span class="line">LibG.poll</span><br><span class="line">LibG.poll.epollfd;</span><br></pre></td></tr></table></figure><h2 id="lib-event-wait-轮训获取可读可写事件"><a href="#lib-event-wait-轮训获取可读可写事件" class="headerlink" title="@lib_event_wait() 轮训获取可读可写事件"></a>@lib_event_wait() 轮训获取可读可写事件</h2><p><code>timer、socket、server、sleep</code>等模块依赖于event，所以需要显示调用event<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">while(LibG.running)&#123;</span><br><span class="line">    epoll_wait(....)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;
-      
-    
-    </summary>
-    
-      <category term="c-ext" scheme="http://blog.huido.site/categories/c-ext/"/>
-    
-      <category term="event" scheme="http://blog.huido.site/categories/c-ext/event/"/>
-    
-    
-      <category term="linux" scheme="http://blog.huido.site/tags/linux/"/>
-    
-      <category term="c" scheme="http://blog.huido.site/tags/c/"/>
-    
-      <category term="php" scheme="http://blog.huido.site/tags/php/"/>
-    
-      <category term="ext" scheme="http://blog.huido.site/tags/ext/"/>
-    
-      <category term="coroutine" scheme="http://blog.huido.site/tags/coroutine/"/>
-    
-      <category term="epoll" scheme="http://blog.huido.site/tags/epoll/"/>
-    
-  </entry>
-  
-  <entry>
     <title>php_引用计数与gc</title>
     <link href="http://blog.huido.site/wiki/blog/php_%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E4%B8%8EGC/"/>
     <id>http://blog.huido.site/wiki/blog/php_引用计数与GC/</id>
     <published>2020-01-10T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.416Z</updated>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
     <content type="html"><![CDATA[<p>进行php扩展开发的时候会遇到一些问题，就是php用户态空间将变量传递到扩展层面<code>c层调用</code>的时候，会出现一些问题，下面的例子是一个timer定时器的例子。<br>用户空间会传递一个回调函数给<code>timer扩展接口</code>，那么实际回调函数被调用的地方是<code>c层</code>。但是该回调函数变量本身是由用户空间<code>申请</code>并交由php<code>内核gc管理</code>的，<br>如果扩展函数内不做任何操作，那么当切换到用户空间时php内核会判断该变量<code>需要回收</code>，然后扩展函数就会空指针异常等</p><p>当扩展函数内该php变量生命周期使用结束后，任然需要考虑<code>垃圾回收</code>的问题，并不是在扩展函数内简单<code>free(data)</code>就可以的，需要调用php内核引用计数接口等<br>进行变量的回收以及gc等，最后交由php内核gc管理。当然扩展函数内由c自行申请管理的内存可以自己释放</p><ul><li><p>扩展函数定义示例</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">PHP_METHOD(timer_obj,tick)</span><br><span class="line">&#123;</span><br><span class="line">    php_lib_timer_callback *fci = (php_lib_timer_callback *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(php_lib_timer_callback));</span><br><span class="line">    <span class="comment">//强制传入两个参数</span></span><br><span class="line">    ZEND_PARSE_PARAMETERS_START(<span class="number">2</span>, <span class="number">2</span>)</span><br><span class="line">    Z_PARAM_LONG(fci-&gt;seconds)</span><br><span class="line">    Z_PARAM_FUNC(fci-&gt;fci,fci-&gt;fcc)</span><br><span class="line">    ZEND_PARSE_PARAMETERS_END_EX(RETURN_FALSE);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">long</span> id = create_time_event(fci-&gt;seconds,tick,fci,del);</span><br><span class="line">    zend_fci_cache_persist(&amp;fci-&gt;fcc);</span><br><span class="line">    RETURN_LONG(id);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>扩展函数内执行php用户态回调函数示例</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">tick</span><span class="params">(<span class="keyword">long</span> <span class="keyword">long</span> id,<span class="keyword">void</span> *data)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    php_lib_timer_callback *fci = (php_lib_timer_callback *)data;</span><br><span class="line">    zval result;</span><br><span class="line">    fci-&gt;fci.retval = &amp;result;</span><br><span class="line">    <span class="keyword">if</span>(zend_call_function(&amp;fci-&gt;fci,&amp;fci-&gt;fcc) != SUCCESS)&#123;</span><br><span class="line">        <span class="keyword">return</span> NOMORE;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> fci-&gt;seconds;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="timer-中对回调函数变量进行引用计数-1"><a href="#timer-中对回调函数变量进行引用计数-1" class="headerlink" title="timer 中对回调函数变量进行引用计数+1"></a>timer 中对回调函数变量进行引用计数+1</h2><p>上面会发现timer::tick()函数在返回给用户空间时会做一个操作<code>zend_fci_cache_persist(&amp;fci-&gt;fcc);</code>，正是该调用<br>对传入的回调函数进行饮用计数管理，<code>告诉php内核该回调函数在c层会继续使用不用回收</code>。代码如下<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">zend_fci_cache_persist</span><span class="params">(zend_fcall_info_cache *fci_cache)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;object)</span><br><span class="line">    &#123;</span><br><span class="line">        GC_ADDREF(fci_cache-&gt;object);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;function_handler-&gt;op_array.fn_flags &amp; ZEND_ACC_CLOSURE)</span><br><span class="line">    &#123;</span><br><span class="line">        GC_ADDREF(ZEND_CLOSURE_OBJECT(fci_cache-&gt;function_handler));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>其中<code>GC_ADDREF（）</code>函数很明显就是内核GC相关的api。<code>fci_cache-&gt;function_handler</code> 则为用户传递的回调函数真正的变量地址</p><p>如上前奏后就可以在c扩展中放心的对用户传递的变量进行操作了</p><h2 id="timer-中结束后变量的Gc回收"><a href="#timer-中结束后变量的Gc回收" class="headerlink" title="timer 中结束后变量的Gc回收"></a>timer 中结束后变量的Gc回收</h2><p>上面有看到<code>php_lib_timer_callback</code>变量实际是自己定义的结构体，包括内存也是有开发者自己分配的，可以放心的<code>free</code>。但是该结构体中<br>指向的<code>fci.fcc</code> 则实际是php用户空间申请的变量，不能直接<code>free</code>,如果直接free，会引发php gc泄漏，如下警告所示:<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; php timer.php</span><br><span class="line">/php/src/Zend/zend_closures.c(<span class="number">459</span>) :  Freeing <span class="number">0x00007fc084e6d480</span> (<span class="number">304</span> bytes), script=/timer.php</span><br><span class="line">=== Total <span class="number">1</span> memory leaks detected ===</span><br></pre></td></tr></table></figure></p><p>所以依然需要根据php内核GC的管理方式来处理用户空间的变量，也就是模拟用户空间那样对变量的管理：<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">zend_fci_cache_discard</span><span class="params">(zend_fcall_info_cache *fci_cache)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;object) &#123;</span><br><span class="line">        OBJ_RELEASE(fci_cache-&gt;object);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (fci_cache-&gt;function_handler-&gt;op_array.fn_flags &amp; ZEND_ACC_CLOSURE) &#123;</span><br><span class="line">        OBJ_RELEASE(ZEND_CLOSURE_OBJECT(fci_cache-&gt;function_handler));</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">zend_fci_params_discard</span><span class="params">(zend_fcall_info *fci)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (fci-&gt;param_count &gt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">uint32_t</span> i;</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; fci-&gt;param_count; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            zval_ptr_dtor(&amp;fci-&gt;params[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        efree(fci-&gt;params);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>在不需要使用的时候，也需要对回调函数本身进行减引用，以及回调函数内的用户态的参数进行减引用以及变量的回收。只有做完上面这些基本的管理才能<br>开发一个安全的扩展函数</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>总之用户空间申请的变量传递给扩展内函数使用，如果在返回给用户空间后依然会继续使用就要zval_copy或者引用计数+1,因为在返回给用户空间的时候本身用户空间gc会判断该变量是否有继续引用，否则就<code>refcount -= 1</code>，用户空间回收该变量，但是扩展函数内依然在访问该已经被销毁的变量。就会导致错误</p><p>只有将这些变量的引用与回收做好了才能开发出安全可靠的扩展函数</p>]]></content>
     
@@ -250,7 +410,7 @@
     <link href="http://blog.huido.site/wiki/net-protocol/6.%E7%89%A9%E7%90%86%E5%B1%82/tap/"/>
     <id>http://blog.huido.site/wiki/net-protocol/6.物理层/tap/</id>
     <published>2020-01-10T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
+    <updated>2020-01-18T07:52:59.732Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1-创建一个tap模式的虚拟网卡tap0"><a href="#1-创建一个tap模式的虚拟网卡tap0" class="headerlink" title="1.创建一个tap模式的虚拟网卡tap0"></a>1.创建一个tap模式的虚拟网卡tap0</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ip tuntap add mode tap tap0</span><br></pre></td></tr></table></figure><h3 id="2-开启该网卡"><a href="#2-开启该网卡" class="headerlink" title="2.开启该网卡"></a>2.开启该网卡</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ip link set tap0 up</span><br></pre></td></tr></table></figure><h3 id="3-设置该网卡的ip及掩码-添加路由"><a href="#3-设置该网卡的ip及掩码-添加路由" class="headerlink" title="3.设置该网卡的ip及掩码 |添加路由"></a>3.设置该网卡的ip及掩码 |添加路由</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo ip route add 192.168.1.0/24 dev tap0</span><br><span class="line">//增加ip地址</span><br><span class="line">sudo ip addr add 192.168.1.1/24 dev tap0</span><br></pre></td></tr></table></figure><h3 id="4-添加网关"><a href="#4-添加网关" class="headerlink" title="4.添加网关"></a>4.添加网关</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ip route add default via 192.168.1.2 dev tap0</span><br></pre></td></tr></table></figure><h2 id="删除网卡"><a href="#删除网卡" class="headerlink" title="@删除网卡"></a>@删除网卡</h2><h3 id="1-删除虚拟网卡"><a href="#1-删除虚拟网卡" class="headerlink" title="1.删除虚拟网卡"></a>1.删除虚拟网卡</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ip tuntap del mode tap tap0</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -285,7 +445,7 @@
     <link href="http://blog.huido.site/wiki/c-ext/timer/%E5%AE%9A%E6%97%B6%E5%99%A8/"/>
     <id>http://blog.huido.site/wiki/c-ext/timer/定时器/</id>
     <published>2020-01-10T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
     <content type="html"><![CDATA[<h2 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">lib_event_init();</span><br><span class="line"></span><br><span class="line"><span class="comment">//定时器 毫秒单位 循环触发</span></span><br><span class="line">$timerid = Lib\Timer::tick(<span class="number">1000</span>,<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"定时器循环"</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//定时器 毫秒单位 触发单次</span></span><br><span class="line">Lib\Timer::after(<span class="number">1000</span>,<span class="function"><span class="keyword">function</span><span class="params">()</span><span class="title">use</span><span class="params">($timerid)</span></span>&#123;</span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"只执行一次"</span>;</span><br><span class="line">    <span class="comment">//定时器 毫秒单位 触发单次</span></span><br><span class="line">    Lib\Timer::after(<span class="number">2000</span>,<span class="function"><span class="keyword">function</span><span class="params">()</span><span class="title">use</span><span class="params">($timerid)</span></span>&#123;</span><br><span class="line">        <span class="comment">//定时器删除</span></span><br><span class="line">        Lib\Timer::del($timerid);</span><br><span class="line">    &#125;)</span><br><span class="line"></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">lib_event_wait();</span><br></pre></td></tr></table></figure><h2 id="tick-无限触发定时任务"><a href="#tick-无限触发定时任务" class="headerlink" title="@tick 无限触发定时任务"></a>@tick 无限触发定时任务</h2><p><code>long Lib\Timer::tick(long long seconds,$callback);</code><br>单位为毫秒</p><p>底层基于epoll_wait 阻塞触发定时</p><h2 id="after-单次任务执行"><a href="#after-单次任务执行" class="headerlink" title="@after 单次任务执行"></a>@after 单次任务执行</h2><p><code>long  Lib\Timer::after(long long seconds,$callback);</code></p><h2 id="del-删除定时任务"><a href="#del-删除定时任务" class="headerlink" title="@del 删除定时任务"></a>@del 删除定时任务</h2><p><code>long Lib\Timer::del(long timerid);</code></p>]]></content>
     
@@ -322,7 +482,7 @@
     <link href="http://blog.huido.site/wiki/c-ext/coroutine/%E5%8D%8F%E7%A8%8Btcp%E6%9C%8D%E5%8A%A1/"/>
     <id>http://blog.huido.site/wiki/c-ext/coroutine/协程tcp服务/</id>
     <published>2020-01-05T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.416Z</updated>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
     <content type="html"><![CDATA[<p>创建协程版server，封装所有协程api，所有阻塞操作都会触发协程切换</p><h2 id="Lib-Coroutine-Server"><a href="#Lib-Coroutine-Server" class="headerlink" title="@Lib\Coroutine\Server"></a>@Lib\Coroutine\Server</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//初始化全局对象 epoll等内存空间初始化</span></span><br><span class="line">lib_event_init();</span><br><span class="line"></span><br><span class="line"><span class="comment">//协程运行</span></span><br><span class="line">cgo(<span class="function"><span class="keyword">function</span> <span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">        $server = <span class="keyword">new</span> Lib\Coroutine\Server(<span class="string">"127.0.0.1"</span>, <span class="number">9991</span>);</span><br><span class="line">        $server-&gt;set_handler(<span class="function"><span class="keyword">function</span> <span class="params">(Lib\Coroutine\Socket $conn)</span> <span class="title">use</span><span class="params">($server)</span> </span>&#123;</span><br><span class="line">                $data = $conn-&gt;recv();</span><br><span class="line">                $responseStr = <span class="string">"HTTP/1.1 200 OK\r\n</span></span><br><span class="line"><span class="string">                                Content-Type: text/html\r\n</span></span><br><span class="line"><span class="string">                                Connection: close\r\n</span></span><br><span class="line"><span class="string">                                Content-Length: 11\r\n\r\n</span></span><br><span class="line"><span class="string">                                hello world\r\n"</span>;</span><br><span class="line">                $conn-&gt;send($responseStr);</span><br><span class="line">                $conn-&gt;close();</span><br><span class="line">                <span class="comment">// Sco::sleep(0.01);</span></span><br><span class="line">        &#125;);</span><br><span class="line">        $server-&gt;start();</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//epoll event 轮循 检查事件</span></span><br><span class="line">lib_event_wait();</span><br></pre></td></tr></table></figure><h2 id="construct-初始化"><a href="#construct-初始化" class="headerlink" title="@__construct 初始化"></a>@__construct 初始化</h2><h2 id="set-handler-callback-回调触发事件"><a href="#set-handler-callback-回调触发事件" class="headerlink" title="@set_handler($callback)  回调触发事件"></a>@set_handler($callback)  回调触发事件</h2><h2 id="start-启动监听"><a href="#start-启动监听" class="headerlink" title="start() 启动监听"></a>start() 启动监听</h2>]]></content>
     
@@ -364,7 +524,7 @@
     <link href="http://blog.huido.site/wiki/c-ext/coroutine/%E5%8D%8F%E7%A8%8B/"/>
     <id>http://blog.huido.site/wiki/c-ext/coroutine/协程/</id>
     <published>2020-01-05T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.416Z</updated>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
     <content type="html"><![CDATA[<p>将协程任务保存到扩展事件中进行调度</p><h2 id="cgo"><a href="#cgo" class="headerlink" title="@cgo"></a>@cgo</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//初始化全局对象 epoll等内存空间初始化</span></span><br><span class="line">lib_event_init();</span><br><span class="line"></span><br><span class="line"><span class="comment">//协程运行</span></span><br><span class="line">cgo(<span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"go"</span></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//epoll event 轮循 检查事件</span></span><br><span class="line">lib_event_wait();</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -402,7 +562,7 @@
     <link href="http://blog.huido.site/wiki/c-ext/process/%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86/"/>
     <id>http://blog.huido.site/wiki/c-ext/process/进程管理/</id>
     <published>2019-12-20T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
+    <updated>2020-01-18T07:52:59.728Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Lib-Process"><a href="#Lib-Process" class="headerlink" title="@Lib/Process"></a>@<code>Lib/Process</code></h2><p>该扩展初始化传入回调函数并创建子进程执行，子进程间可以通过channel通讯<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">$process = <span class="keyword">new</span> Lib\Process(<span class="function"><span class="keyword">function</span><span class="params">(Lib\Process $process)</span></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="keyword">true</span>)&#123;</span><br><span class="line">        $data = $process-&gt;read();</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">"child process :&gt; get parent msg: $data \n\n"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">$process-&gt;start();</span><br><span class="line"><span class="keyword">for</span>($i = <span class="number">0</span>;$i &lt; <span class="number">10</span> ; $i ++ )&#123;</span><br><span class="line">    <span class="keyword">echo</span> <span class="string">"parent process :&gt; send child msg: $i\n"</span>;</span><br><span class="line">    $process-&gt;write($i);</span><br><span class="line">    sleep(<span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><h2 id="construct"><a href="#construct" class="headerlink" title="@construct()"></a>@<code>construct()</code></h2><p>初始化构造函数时必须传入回调函数，在子进程创建时会调用</p><h2 id="start"><a href="#start" class="headerlink" title="@start()"></a>@<code>start()</code></h2><p>执行创建子进程操作</p><h2 id="process-gt-write-data"><a href="#process-gt-write-data" class="headerlink" title="@$process-&gt;write($data)"></a>@<code>$process-&gt;write($data)</code></h2><p>向子进程或者父进程写入数据</p><h2 id="process-gt-read"><a href="#process-gt-read" class="headerlink" title="@$process-&gt;read()"></a>@<code>$process-&gt;read()</code></h2><p>向子进程或父进程读取数据</p><h2 id="process-gt-getpid"><a href="#process-gt-getpid" class="headerlink" title="@$process-&gt;getpid()"></a>@<code>$process-&gt;getpid()</code></h2><p>获取当前进程id</p><h2 id="process-gt-getppid"><a href="#process-gt-getppid" class="headerlink" title="@$process-&gt;getppid()"></a>@<code>$process-&gt;getppid()</code></h2><p>获取父进程id</p>]]></content>
     
@@ -433,291 +593,6 @@
       <category term="process" scheme="http://blog.huido.site/tags/process/"/>
     
       <category term="channel" scheme="http://blog.huido.site/tags/channel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>共享内存</title>
-    <link href="http://blog.huido.site/wiki/c-ext/memory/%E5%85%B1%E4%BA%AB%E5%86%85%E5%AD%98/"/>
-    <id>http://blog.huido.site/wiki/c-ext/memory/共享内存/</id>
-    <published>2019-12-20T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Lib-SharMem"><a href="#Lib-SharMem" class="headerlink" title="@Lib/SharMem"></a>@<code>Lib/SharMem</code></h2><p>该扩展申请一块共享内存地址，提供php调用，用于多进程间共享数据<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//初始化传入内存大小 单位字节 bytes</span></span><br><span class="line">$obj = <span class="keyword">new</span> Lib\SharMem(<span class="number">8</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">//模拟int 自增测试</span></span><br><span class="line">$obj-&gt;get();</span><br><span class="line">$obj-&gt;incr();</span><br></pre></td></tr></table></figure></p><p>多进程共享内存测试,采用lib_fork 调用 原生fork操作<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">$Obj = <span class="keyword">new</span> Lib\SharMem(<span class="number">8</span>);</span><br><span class="line"><span class="keyword">if</span>(lib_fork() == <span class="number">0</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="comment">//子进程</span></span><br><span class="line">    <span class="keyword">while</span>(<span class="keyword">true</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        sleep(<span class="number">1</span>);</span><br><span class="line">        $obj-&gt;incr();</span><br><span class="line">        var_dump(<span class="string">"this is clild process \n"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//父进程</span></span><br><span class="line"><span class="keyword">while</span>(<span class="keyword">true</span>)</span><br><span class="line">&#123;</span><br><span class="line">    sleep(<span class="number">1</span>);</span><br><span class="line">    var_dump(<span class="string">"this is parent process get value:"</span>.$obj-&gt;get());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Lib-SharMem&quot;&gt;&lt;a href=&quot;#Lib-SharMem&quot; class=&quot;headerlink&quot; title=&quot;@Lib/SharMem&quot;&gt;&lt;/a&gt;@&lt;code&gt;Lib/SharMem&lt;/code&gt;&lt;/h2&gt;&lt;p&gt;该扩展申请一块共享内存地址，提供php
-      
-    
-    </summary>
-    
-      <category term="c-ext" scheme="http://blog.huido.site/categories/c-ext/"/>
-    
-      <category term="memory" scheme="http://blog.huido.site/categories/c-ext/memory/"/>
-    
-    
-      <category term="linux" scheme="http://blog.huido.site/tags/linux/"/>
-    
-      <category term="c" scheme="http://blog.huido.site/tags/c/"/>
-    
-      <category term="php" scheme="http://blog.huido.site/tags/php/"/>
-    
-      <category term="ext" scheme="http://blog.huido.site/tags/ext/"/>
-    
-      <category term="share" scheme="http://blog.huido.site/tags/share/"/>
-    
-      <category term="memory" scheme="http://blog.huido.site/tags/memory/"/>
-    
-      <category term="syscall" scheme="http://blog.huido.site/tags/syscall/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>共享内存的实现</title>
-    <link href="http://blog.huido.site/wiki/blog/share-mem/%E5%85%B1%E4%BA%AB%E5%86%85%E5%AD%98/"/>
-    <id>http://blog.huido.site/wiki/blog/share-mem/共享内存/</id>
-    <published>2019-12-11T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.416Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="共享内存"><a href="#共享内存" class="headerlink" title="共享内存"></a>共享内存</h2><p>本质为通过系统调用申请一块内存，由系统调用，该内存可以跨进程间使用，有是那种共享内存的申请方式</p><ul><li><ol><li>采用mmap 方式申请共享内存 </li></ol></li><li><ol start="2"><li>采用文件映射方式申请共享内存</li></ol></li><li><ol start="3"><li>采用 shmget 系统调用方式申请共享内存</li></ol></li></ul><p>上面三种方式在本次实验中分别对应三种宏</p><ul><li><ol><li>HAVE_MAP_ANON</li></ol></li><li><ol start="2"><li>HAVE_MAP_DEVZERO</li></ol></li><li><ol start="3"><li>HAVE_SYSVSHM<h2 id="申请内存"><a href="#申请内存" class="headerlink" title="申请内存"></a>申请内存</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">//申请共享内存</span></span><br><span class="line"><span class="keyword">shm_t</span> shm;</span><br><span class="line"><span class="keyword">size_t</span> <span class="built_in">size</span>;</span><br><span class="line"><span class="built_in">size</span> = <span class="number">8</span> * <span class="number">16</span>;<span class="comment">//分配128字节内存</span></span><br><span class="line">shm.<span class="built_in">size</span> = <span class="built_in">size</span>;</span><br><span class="line">shm.name  = (u_char *)<span class="string">"nginx_shared_zone"</span>;</span><br><span class="line">shm.server = serv;</span><br><span class="line">shm_alloc(&amp;shm);</span><br><span class="line"><span class="keyword">int</span>* count = (<span class="keyword">int</span> *)(shm.addr + <span class="number">8</span>);</span><br></pre></td></tr></table></figure></li></ol></li><li><p>上面的例子中，<code>shm_alloc</code>方法分配了 128字节内存</p></li><li>申请成功后，<code>shm.addr</code> 即是共享的内存首地址，需要自己分配管理</li><li><code>int *count</code> 截取了前8个字节分配使用。转换为8字节int指针使用，<h2 id="演示案例"><a href="#演示案例" class="headerlink" title="演示案例"></a>演示案例</h2>通过申请一块共享内存地址，分配一个int指针，模拟http多进程处理请求并统计请求总数.如下为请求样例<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">static void eventloop(server *serv) &#123;</span><br><span class="line">    pid_t pid;</span><br><span class="line">    struct sigaction sa;</span><br><span class="line">    connection *con;</span><br><span class="line">    //申请共享内存</span><br><span class="line">   shm_t shm;</span><br><span class="line">   size_t size;</span><br><span class="line">   size = 8 * 16;//分配128字节内存</span><br><span class="line">   shm.size = size;</span><br><span class="line">   shm.name  = (u_char *)&quot;nginx_shared_zone&quot;;</span><br><span class="line">   shm.server = serv;</span><br><span class="line">   shm_alloc(&amp;shm);</span><br><span class="line">   int* count = (int *)(shm.addr + 8);</span><br><span class="line"></span><br><span class="line">    sa.sa_handler = sigchld_handler;</span><br><span class="line">    sigemptyset(&amp;sa.sa_mask);</span><br><span class="line">    sa.sa_flags = SA_RESTART;</span><br><span class="line"></span><br><span class="line">    if (sigaction(SIGCHLD, &amp;sa, NULL) == -1) &#123;</span><br><span class="line">        perror(&quot;sigaction&quot;);</span><br><span class="line">        exit(1);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    while (1) &#123;</span><br><span class="line">        if ((con = connection_accept(serv)) == NULL) &#123;</span><br><span class="line">            continue;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if ((pid = fork()) == 0) &#123;</span><br><span class="line"></span><br><span class="line">            // 子进程中处理HTTP请求</span><br><span class="line">            close(serv-&gt;sockfd);</span><br><span class="line">           *count += 1;</span><br><span class="line">           printf(&quot;request count is %d\n&quot;,*count);</span><br><span class="line">            connection_handler(serv, con);</span><br><span class="line">            connection_close(con);</span><br><span class="line"></span><br><span class="line">            exit(0);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        printf(&quot;child process: %d\n&quot;, pid);</span><br><span class="line">        connection_close(con);</span><br><span class="line">    &#125;</span><br><span class="line">   shm_free(&amp;shm);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><p>统计结果：<code>ab -c 10 -n 10 http://127.0.0.1:8080/</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">request count is 7</span><br><span class="line">request count is 8</span><br><span class="line">socket: 5</span><br><span class="line">socket: 5</span><br><span class="line">request count is 9</span><br><span class="line">request count is 10</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;共享内存&quot;&gt;&lt;a href=&quot;#共享内存&quot; class=&quot;headerlink&quot; title=&quot;共享内存&quot;&gt;&lt;/a&gt;共享内存&lt;/h2&gt;&lt;p&gt;本质为通过系统调用申请一块内存，由系统调用，该内存可以跨进程间使用，有是那种共享内存的申请方式&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="blog" scheme="http://blog.huido.site/categories/blog/"/>
-    
-      <category term="share-mem" scheme="http://blog.huido.site/categories/blog/share-mem/"/>
-    
-    
-      <category term="linux" scheme="http://blog.huido.site/tags/linux/"/>
-    
-      <category term="share" scheme="http://blog.huido.site/tags/share/"/>
-    
-      <category term="memory" scheme="http://blog.huido.site/tags/memory/"/>
-    
-      <category term="syscall" scheme="http://blog.huido.site/tags/syscall/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shamem.h</title>
-    <link href="http://blog.huido.site/wiki/blog/share-mem/shamem.h/"/>
-    <id>http://blog.huido.site/wiki/blog/share-mem/shamem.h/</id>
-    <published>2019-12-11T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.416Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> _SHMEM_H_INCLUDED_</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> _SHMEM_H_INCLUDED_</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  OK          0</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  ERROR      -1</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/mman.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"server.h"</span></span></span><br><span class="line"><span class="keyword">typedef</span> server serv;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> &#123;</span></span><br><span class="line">    u_char      *addr;</span><br><span class="line">    <span class="keyword">size_t</span>       <span class="built_in">size</span>;</span><br><span class="line">    u_char    name;</span><br><span class="line">    serv   *server;</span><br><span class="line">&#125; <span class="keyword">shm_t</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">shm_alloc</span><span class="params">(<span class="keyword">shm_t</span> *shm)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shm_free</span><span class="params">(<span class="keyword">shm_t</span> *shm)</span></span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">/* _SHMEM_H_INCLUDED_ */</span></span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;li
-      
-    
-    </summary>
-    
-      <category term="blog" scheme="http://blog.huido.site/categories/blog/"/>
-    
-      <category term="share-mem" scheme="http://blog.huido.site/categories/blog/share-mem/"/>
-    
-    
-      <category term="linux" scheme="http://blog.huido.site/tags/linux/"/>
-    
-      <category term="share" scheme="http://blog.huido.site/tags/share/"/>
-    
-      <category term="memory" scheme="http://blog.huido.site/tags/memory/"/>
-    
-      <category term="syscall" scheme="http://blog.huido.site/tags/syscall/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shamem.c</title>
-    <link href="http://blog.huido.site/wiki/blog/share-mem/shamem.c/"/>
-    <id>http://blog.huido.site/wiki/blog/share-mem/shamem.c/</id>
-    <published>2019-12-11T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.416Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"shmem.h"</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"log.h"</span></span></span><br><span class="line"><span class="comment">//采用 mmap 方式申请共享内存</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">if</span> (HAVE_MAP_ANON)</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">shm_alloc</span><span class="params">(<span class="keyword">shm_t</span> *shm)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    shm-&gt;addr = (u_char *) mmap(<span class="literal">NULL</span>, shm-&gt;<span class="built_in">size</span>,</span><br><span class="line">                                PROT_READ|PROT_WRITE,</span><br><span class="line">                                MAP_ANON|MAP_SHARED, <span class="number">-1</span>, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (shm-&gt;addr == MAP_FAILED) &#123;</span><br><span class="line">        log_error(shm-&gt;server, <span class="string">"mmap(MAP_ANON|MAP_SHARED, %d) failed"</span>, shm-&gt;<span class="built_in">size</span>);</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    log_info(shm-&gt;server, <span class="string">"mmap(MAP_ANON|MAP_SHARED, %d) success"</span>, shm-&gt;<span class="built_in">size</span>);</span><br><span class="line">    <span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shm_free</span><span class="params">(<span class="keyword">shm_t</span> *shm)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (munmap((<span class="keyword">void</span> *) shm-&gt;addr, shm-&gt;<span class="built_in">size</span>) == <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server, <span class="string">"munmap(%s, %d) failed"</span>, shm-&gt;addr, shm-&gt;<span class="built_in">size</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    log_info(shm-&gt;server, <span class="string">"munmap( %d) success"</span>,  shm-&gt;<span class="built_in">size</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//采用 文件映射方式申请共享内存</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">elif</span> (HAVE_MAP_DEVZERO)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int_t</span> shm_alloc(<span class="keyword">shm_t</span> *shm)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">fd_t</span>  fd;</span><br><span class="line"></span><br><span class="line">    fd = <span class="built_in">open</span>(<span class="string">"/dev/zero"</span>, O_RDWR);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (fd == <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server, <span class="string">"open(\"/dev/zero\") failed"</span>);</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    shm-&gt;addr = (u_char *) mmap(<span class="literal">NULL</span>, shm-&gt;<span class="built_in">size</span>, PROT_READ|PROT_WRITE,</span><br><span class="line">                                MAP_SHARED, fd, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (shm-&gt;addr == MAP_FAILED) &#123;</span><br><span class="line">        log_error(shm-&gt;server, <span class="string">"mmap(/dev/zero, MAP_SHARED, %d) failed"</span>, shm-&gt;<span class="built_in">size</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">close</span>(fd) == <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server,<span class="string">"close(\"/dev/zero\") failed"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> (shm-&gt;addr == MAP_FAILED) ? ERROR : OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shm_free</span><span class="params">(<span class="keyword">shm_t</span> *shm)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (munmap((<span class="keyword">void</span> *) shm-&gt;addr, shm-&gt;<span class="built_in">size</span>) == <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server,<span class="string">"munmap(%s, %d) failed"</span>, shm-&gt;addr, shm-&gt;<span class="built_in">size</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//采用 shmget 系统调用方式申请共享内存</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">elif</span> (HAVE_SYSVSHM)</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/ipc.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/shm.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">int_t</span> shm_alloc(<span class="keyword">shm_t</span> *shm)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span>  id;</span><br><span class="line"></span><br><span class="line">    id = shmget(IPC_PRIVATE, shm-&gt;<span class="built_in">size</span>, (SHM_R|SHM_W|IPC_CREAT));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (id == <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server,<span class="string">"shmget(%d) failed"</span>, shm-&gt;<span class="built_in">size</span>);</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    log_info(shm-&gt;server,, <span class="string">"shmget id: %d"</span>, id);</span><br><span class="line"></span><br><span class="line">    shm-&gt;addr = shmat(id, <span class="literal">NULL</span>, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (shm-&gt;addr == (<span class="keyword">void</span> *) <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server, <span class="string">"shmat() failed"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (shmctl(id, IPC_RMID, <span class="literal">NULL</span>) == <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server,<span class="string">"shmctl(IPC_RMID) failed"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> (shm-&gt;addr == (<span class="keyword">void</span> *) <span class="number">-1</span>) ? ERROR : OK;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shm_free</span><span class="params">(<span class="keyword">shm_t</span> *shm)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (shmdt(shm-&gt;addr) == <span class="number">-1</span>) &#123;</span><br><span class="line">        log_error(shm-&gt;server,<span class="string">"shmdt(%s) failed"</span>, shm-&gt;addr);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;li
-      
-    
-    </summary>
-    
-      <category term="blog" scheme="http://blog.huido.site/categories/blog/"/>
-    
-      <category term="share-mem" scheme="http://blog.huido.site/categories/blog/share-mem/"/>
-    
-    
-      <category term="linux" scheme="http://blog.huido.site/tags/linux/"/>
-    
-      <category term="share" scheme="http://blog.huido.site/tags/share/"/>
-    
-      <category term="memory" scheme="http://blog.huido.site/tags/memory/"/>
-    
-      <category term="syscall" scheme="http://blog.huido.site/tags/syscall/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>websocket-客户端</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/7.%E5%AE%A2%E6%88%B7%E7%AB%AF/websocekt-%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/7.客户端/websocekt-客户端/</id>
-    <published>2019-12-06T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="客户端创建"><a href="#客户端创建" class="headerlink" title="@客户端创建"></a>@客户端创建</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line"><span class="string">"fmt"</span></span><br><span class="line"><span class="string">"github.com/brewlin/net-protocol/pkg/logging"</span></span><br><span class="line"><span class="string">"github.com/brewlin/net-protocol/protocol/application/websocket"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">init</span><span class="params">()</span></span>  &#123;</span><br><span class="line">logging.Setup()</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">wscli ,_ := websocket.NewClient(<span class="string">"http://10.0.2.15:8080/ws"</span>)</span><br><span class="line"><span class="keyword">defer</span> wscli.Close()</span><br><span class="line"><span class="comment">//升级 http协议为websocket</span></span><br><span class="line"><span class="keyword">if</span> err := wscli.Upgrade();err != <span class="literal">nil</span> &#123;</span><br><span class="line"><span class="built_in">panic</span>(err)</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//循环接受数据</span></span><br><span class="line"><span class="keyword">for</span> &#123;</span><br><span class="line"><span class="keyword">if</span> err := wscli.Push(<span class="string">"test"</span>);err != <span class="literal">nil</span> &#123;</span><br><span class="line"><span class="keyword">break</span></span><br><span class="line">&#125;</span><br><span class="line">data,_ := wscli.Recv()</span><br><span class="line">fmt.Println(data)</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>实现了基本的websocket客户端,升级http协议，发送数据，接受数据等方法</li><li>依赖tap虚拟网卡，所以需要启动网卡依赖</li><li>依赖<code>ARP</code>,<code>TCP</code>,<code>IPV4</code>等协议，所以默认注册了该协议</li><li>注意：<ul><li>1.外网请求需要使用<code>tool/up</code> 方式启动网卡配置数据包转发</li><li>2.未实现dns查询域名，必须使用ip测试</li></ul></li></ul><h2 id="NewClient-创建客户端"><a href="#NewClient-创建客户端" class="headerlink" title="@NewClient 创建客户端"></a>@NewClient 创建客户端</h2><p>构造函数传入url,默认返回一个*Client 指针<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cli,err := http.NewClient(<span class="string">"http://10.0.2.15:8080/ws"</span>)</span><br></pre></td></tr></table></figure></p><h2 id="Close-关闭连接"><a href="#Close-关闭连接" class="headerlink" title="@Close 关闭连接"></a>@Close 关闭连接</h2><p>结束后，需要手动关闭连接，底层进行tcp四次挥手结束两端状态<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">defer</span> wscli.Close()</span><br></pre></td></tr></table></figure></p><h2 id="Upgrade-升级协议"><a href="#Upgrade-升级协议" class="headerlink" title="@Upgrade 升级协议"></a>@Upgrade 升级协议</h2><p>该方法主要执行两个步骤</p><ul><li><ol><li>发起http情况，告诉服务端为websocket协议</li></ol></li><li><ol start="2"><li>对服务端返回的http响应，进行校验，校验通过后保持tcp连接，升级为websocket协议<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//升级 http协议为websocket</span></span><br><span class="line"><span class="keyword">if</span> err := wscli.Upgrade();err != <span class="literal">nil</span> &#123;</span><br></pre></td></tr></table></figure></li></ol></li></ul><h2 id="push-推送数据"><a href="#push-推送数据" class="headerlink" title="@push 推送数据"></a>@push 推送数据</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wscli.Push(<span class="string">"test"</span>)</span><br></pre></td></tr></table></figure><p>添加数据</p><h2 id="Recv-获取数据"><a href="#Recv-获取数据" class="headerlink" title="@Recv 获取数据"></a>@Recv 获取数据</h2><p>读取该websocket流 接受的数据，本质为tcp流数据，经过websocket协议解包后处理<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data,_ := wscli.Recv()</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;客户端创建&quot;&gt;&lt;a href=&quot;#客户端创建&quot; class=&quot;headerlink&quot; title=&quot;@客户端创建&quot;&gt;&lt;/a&gt;@客户端创建&lt;/h2&gt;&lt;figure class=&quot;highlight go&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;
-      
-    
-    </summary>
-    
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
-    
-      <category term="7.客户端" scheme="http://blog.huido.site/categories/net-protocol/7-%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
-    
-    
-      <category term="go" scheme="http://blog.huido.site/tags/go/"/>
-    
-      <category term="tcp" scheme="http://blog.huido.site/tags/tcp/"/>
-    
-      <category term="http" scheme="http://blog.huido.site/tags/http/"/>
-    
-      <category term="protocol" scheme="http://blog.huido.site/tags/protocol/"/>
-    
-      <category term="client" scheme="http://blog.huido.site/tags/client/"/>
-    
-      <category term="request" scheme="http://blog.huido.site/tags/request/"/>
-    
-      <category term="response" scheme="http://blog.huido.site/tags/response/"/>
-    
-      <category term="websocket" scheme="http://blog.huido.site/tags/websocket/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>http-客户端</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/7.%E5%AE%A2%E6%88%B7%E7%AB%AF/http-%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/7.客户端/http-客户端/</id>
-    <published>2019-12-05T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="客户端创建"><a href="#客户端创建" class="headerlink" title="@客户端创建"></a>@客户端创建</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line"><span class="string">"fmt"</span></span><br><span class="line"><span class="string">"github.com/brewlin/net-protocol/pkg/logging"</span></span><br><span class="line"><span class="string">"github.com/brewlin/net-protocol/protocol/application/http"</span></span><br><span class="line">)</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">init</span><span class="params">()</span></span>  &#123;</span><br><span class="line">logging.Setup()</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">cli,err := http.NewClient(<span class="string">"http://10.0.2.15:8080/test"</span>)</span><br><span class="line"><span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line"><span class="built_in">panic</span>(err)</span><br><span class="line"><span class="keyword">return</span></span><br><span class="line">&#125;</span><br><span class="line">cli.SetMethod(<span class="string">"GET"</span>)</span><br><span class="line">cli.SetData(<span class="string">"test"</span>)</span><br><span class="line">res,err := cli.GetResult()</span><br><span class="line">fmt.Println(res)</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li>实现了基本的http客户端,发起请求和接收响应等get post方法</li><li>依赖tap虚拟网卡，所以需要启动网卡依赖</li><li>依赖<code>ARP</code>,<code>TCP</code>,<code>IPV4</code>等协议，所以默认注册了该协议</li><li>注意：<ul><li>1.外网请求需要使用<code>tool/up</code> 方式启动网卡配置数据包转发</li><li>2.未实现dns查询域名，必须使用ip测试</li></ul></li></ul><h2 id="NewClient-创建客户端"><a href="#NewClient-创建客户端" class="headerlink" title="@NewClient 创建客户端"></a>@NewClient 创建客户端</h2><p>构造函数传入url,默认返回一个*Client 指针<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cli,err := http.NewClient(<span class="string">"http://10.0.2.15:8080/test"</span>)</span><br></pre></td></tr></table></figure></p><h2 id="设置请求方法"><a href="#设置请求方法" class="headerlink" title="@设置请求方法"></a>@设置请求方法</h2><p>设置请求的http方法 <code>GET,POST</code>等<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cli.SetMethod(<span class="string">"GET"</span>)</span><br></pre></td></tr></table></figure></p><h2 id="添加请求数据"><a href="#添加请求数据" class="headerlink" title="@添加请求数据"></a>@添加请求数据</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cli.SetData(<span class="string">"test"</span>)</span><br></pre></td></tr></table></figure><p>添加数据</p><h2 id="获取响应结果"><a href="#获取响应结果" class="headerlink" title="@获取响应结果"></a>@获取响应结果</h2><p>该方法真正执行tcp连接，发送数据，和读取响应数据<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">res,err := cli.GetResult()</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;客户端创建&quot;&gt;&lt;a href=&quot;#客户端创建&quot; class=&quot;headerlink&quot; title=&quot;@客户端创建&quot;&gt;&lt;/a&gt;@客户端创建&lt;/h2&gt;&lt;figure class=&quot;highlight go&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;
-      
-    
-    </summary>
-    
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
-    
-      <category term="7.客户端" scheme="http://blog.huido.site/categories/net-protocol/7-%E5%AE%A2%E6%88%B7%E7%AB%AF/"/>
-    
-    
-      <category term="go" scheme="http://blog.huido.site/tags/go/"/>
-    
-      <category term="tcp" scheme="http://blog.huido.site/tags/tcp/"/>
-    
-      <category term="http" scheme="http://blog.huido.site/tags/http/"/>
-    
-      <category term="protocol" scheme="http://blog.huido.site/tags/protocol/"/>
-    
-      <category term="client" scheme="http://blog.huido.site/tags/client/"/>
-    
-      <category term="request" scheme="http://blog.huido.site/tags/request/"/>
-    
-      <category term="response" scheme="http://blog.huido.site/tags/response/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>快速开始</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/1.%E5%89%8D%E8%A8%80/1.%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/1.前言/1.快速开始/</id>
-    <published>2019-12-05T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="demo案例"><a href="#demo案例" class="headerlink" title="demo案例"></a>demo案例</h2><p><code>cmd</code>:该目录下为各协议的实现demo，提供api调用实现以及测试</p><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><ol><li>需要配置相关的参数 <code>config/net.go</code></li><li>如果应用层协议要与外网通讯，必须配置本地物理网卡作为网关使用</li><li>推荐使用<code>too/up.go</code>工具，创建tap网卡和配置环境</li></ol><h2 id="存在的问题"><a href="#存在的问题" class="headerlink" title="存在的问题"></a>存在的问题</h2><h3 id="1-外网通讯问题"><a href="#1-外网通讯问题" class="headerlink" title="1.外网通讯问题"></a>1.外网通讯问题</h3><p><code>请看目录8问题反馈:</code></p><p>目前外网通讯采用的是，使用本地物理网卡开启<code>ip_forward</code> 和<code>nat</code>转发达到外网通讯，测试发现多次无法收到外网的回复包，导致client等调用超时，</p><p>具体可以通过抓包物理网卡观察</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;demo案例&quot;&gt;&lt;a href=&quot;#demo案例&quot; class=&quot;headerlink&quot; title=&quot;demo案例&quot;&gt;&lt;/a&gt;demo案例&lt;/h2&gt;&lt;p&gt;&lt;code&gt;cmd&lt;/code&gt;:该目录下为各协议的实现demo，提供api调用实现以及测试&lt;/p&gt;
-&lt;h2
-      
-    
-    </summary>
-    
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
-    
-      <category term="1.前言" scheme="http://blog.huido.site/categories/net-protocol/1-%E5%89%8D%E8%A8%80/"/>
-    
-    
-      <category term="go" scheme="http://blog.huido.site/tags/go/"/>
-    
-      <category term="protocol" scheme="http://blog.huido.site/tags/protocol/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tun/Tap虚拟网卡外网通讯</title>
-    <link href="http://blog.huido.site/wiki/net-protocol/8.%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88/tun_tap/"/>
-    <id>http://blog.huido.site/wiki/net-protocol/8.问题反馈/tun_tap/</id>
-    <published>2019-12-04T13:28:59.000Z</published>
-    <updated>2020-01-18T07:47:49.420Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>tap属于2层协议，也就是他能够像读取文件一样获取拥有完整的数据包，包括以太网封装的mac目的地址和源地址等。拥有自己的<code>ip地址和网段</code>、<code>mac地址</code>、等信息，可以当做完整独立的网卡</p><p>tun数据2层协议，也就是只能获取ip数据包结构，不能获得mac地址等等网络层以下的数据信息</p><ol><li>默认tap网卡有自己的<code>网段</code>，和本地物理网卡<code>不在同一个网段</code>，那么收发的数据包需要路由配置，但是无法转发到网关路由器</li><li>有两种方法可以让tap网卡收发外网数据包，</li></ol><ul><li><code>新建一个网桥bridge,并把tap和物理网卡桥接到该网桥下</code></li><li><code>tap网卡的数据包所有的都转发到本地物理网卡上</code>，让物理网卡替tap 收发数据包到网关</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">+----------------------------------------------------------------+</span><br><span class="line">|                                                                |</span><br><span class="line">|       +------------------------------------------------+       |</span><br><span class="line">|       |             Newwork Protocol Stack             |       |</span><br><span class="line">|       +------------------------------------------------+       |</span><br><span class="line">|              ↑                                ↑                |</span><br><span class="line">|..............|................................|................|</span><br><span class="line">|              ↓                                ↓                |</span><br><span class="line">|        +----------+                     +------------+         |</span><br><span class="line">|        |   eth0   |                     |     tap0   |         |</span><br><span class="line">|        +----------+                     +------------+         |</span><br><span class="line">|    10.0.2.15 ↑                        192.168.1.1              |</span><br><span class="line">|              |                                                 |</span><br><span class="line">|              |                                                 |</span><br><span class="line">+--------------|-------------------------------------------------+</span><br><span class="line">               ↓</span><br><span class="line">         Physical Network</span><br></pre></td></tr></table></figure><p>可以看到新建的tap虚拟网卡，可以自己定义协议栈和收发数据，但是却无法和物理网卡通讯</p><h2 id="1-ip转发方式实现外网通讯"><a href="#1-ip转发方式实现外网通讯" class="headerlink" title="1. ip转发方式实现外网通讯"></a>1. ip转发方式实现外网通讯</h2><p>本质来说，就是让tap和 本地网卡通讯，只是目的ip依然为<code>外网ip</code>,那么本地网卡收到数据包后，判断ip为外网后替你转发到网卡后，进行一下跳，直到收到对方的包，然后在回复给tap网卡<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">+----------------------------------------------------------------+</span><br><span class="line">|                                                                |</span><br><span class="line">|   +-------------------------  |  -----------------------+      |</span><br><span class="line">|   |             Newwork Prot  |  ocol Stack             |      |</span><br><span class="line">|   +-------------------------  |  -----------------------+      |</span><br><span class="line">|              ↑                                ↑                |</span><br><span class="line">|..............|................................|................|</span><br><span class="line">|              ↓                                ↓                |</span><br><span class="line">|        +----------+                     +------------+         |</span><br><span class="line">|        |   eth0   |     &lt;-------&gt;       |     tap0   |         |</span><br><span class="line">|        +----------+                     +------------+         |</span><br><span class="line">|    10.0.2.15 ↑                        192.168.1.1              |</span><br><span class="line">|              |                                                 |</span><br><span class="line">|              |                                                 |</span><br><span class="line">+--------------|-------------------------------------------------+</span><br><span class="line">               ↓</span><br><span class="line">         Physical Network</span><br></pre></td></tr></table></figure></p><p>总的来说就是所有的数据包都发给<code>eth0</code>,<code>mac目的地址</code>填eth0的MAC地址，<code>目的ip地址</code>保持不变，传给eth0 让他去判断后转发给网关,最后转发到外网去。</p><h3 id="开启物理网卡的ip转发"><a href="#开启物理网卡的ip转发" class="headerlink" title="@开启物理网卡的ip转发"></a>@开启物理网卡的ip转发</h3><p>临时</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># echo &quot;1&quot;&gt; /proc/sys/net/ipv4/ip_forward</span><br></pre></td></tr></table></figure><p>永久</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># nano /etc/sysctl.conf</span><br><span class="line">net.ipv4.ip_forward=1//取消注释</span><br><span class="line"># sysctl -p//保存</span><br></pre></td></tr></table></figure><p>第三种</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># sudo sysctl net.ipv4.ip_forward=1</span><br></pre></td></tr></table></figure><h3 id="配置网卡防火墙规则"><a href="#配置网卡防火墙规则" class="headerlink" title="@配置网卡防火墙规则"></a>@配置网卡防火墙规则</h3><p>配置物理网卡接受来自tap网段的数据包，并进行nat转发</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># iptables -F//清除所有的iptables规则</span><br><span class="line"># iptables -P INPUT ACCEPT//允许接收</span><br><span class="line"># iptables -P FORWARD ACCEPT//允许发送数据包</span><br><span class="line"># iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -o eth0 -j MASQUERADE //MASQUERADE方式配置nat</span><br></pre></td></tr></table></figure><h2 id="2-桥接网卡模式"><a href="#2-桥接网卡模式" class="headerlink" title="2. 桥接网卡模式"></a>2. 桥接网卡模式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">+----------------------------------------------------------------+</span><br><span class="line">|                                                                |</span><br><span class="line">|       +------------------------------------------------+       |</span><br><span class="line">|       |             Newwork Protocol Stack             |       |</span><br><span class="line">|       +------------------------------------------------+       |</span><br><span class="line">|                         ↑                           ↑          |</span><br><span class="line">|.........................|...........................|..........|</span><br><span class="line">|                         ↓                           ↓          |</span><br><span class="line">|        +------+     +--------+     +-------+    |</span><br><span class="line">|        |      |     | .2.15  |     |192.168.1.0    |</span><br><span class="line">|        +------+     +--------+  &lt;----------   +-------+    |</span><br><span class="line">|        | eth0 |&lt;---&gt;|   br0  || tap|    |</span><br><span class="line">|        +------+     +--------+     +-------+    |</span><br><span class="line">|            ↑                                      |</span><br><span class="line">|            |                            |</span><br><span class="line">|            |                            |</span><br><span class="line">|            |                                                   |</span><br><span class="line">+------------|---------------------------------------------------+</span><br><span class="line">             ↓</span><br><span class="line">     Physical Network</span><br></pre></td></tr></table></figure><p>可以看到，tap网卡所有的写入数据都会转发到网桥br0上，处理，也能发送到网关连通外网，但是我的tap网卡却收不到网桥发回的数据，</p><p>比如tap发送一个tcp sync 包到外网ip<code>114.148.199.89</code>(瞎编的)，那么他的流程实际是这样</p><ol><li>tap -&gt; br0  br0收到目的ip不是本机，则发给网关，并带上源mac地址为br0地址</li><li>br0 -&gt; gateway 网关收到数据后进行下一跳，直到发送给<code>114.148.199.89</code></li><li><code>114.148.199.89</code> -&gt; br0  114.148.199.89收到sync包，并发送ack给br0</li><li>br0 收到了该ack包，但是发现目的ip也就是tap的ip地址路由不到，就会发送icmp rst复位数据包告诉 <code>114.148.199.89</code> 连接错误</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">现在没有解决为什么tap网卡收不到外网包的问题!</span><br></pre></td></tr></table></figure><h3 id="配置桥接"><a href="#配置桥接" class="headerlink" title="配置桥接"></a>配置桥接</h3><ol><li>桥接物理网卡到网桥上</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- `brctl addbr br0`                 #创建网桥</span><br><span class="line">- `brctl addif br0 eth0`            #将eth0先加入网桥</span><br><span class="line">- `ifconfig br0 10.0.2.15 up`    #启动网桥并分配IP</span><br><span class="line">- `ifconfig eth0 0.0.0.0`           #eth0现在不需要IP地址了</span><br></pre></td></tr></table></figure><ol start="2"><li>创建tap网卡</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- sudo ip tuntap add mode tap tap0</span><br><span class="line">- sudo ip link set tap0 up</span><br><span class="line">- sudo ip addr add 192.168.1.1/24 dev tap0</span><br></pre></td></tr></table></figure><ol start="3"><li>桥接tap网</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- brctl addif br0 tap0</span><br></pre></td></tr></table></figure><ol start="4"><li>转移网关到网桥上</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- ip route add defalut via 10.0.2.2 dev br0</span><br></pre></td></tr></table></figure><ol start="5"><li>配置nat 防火墙转发</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -o br0 -j MASQUERADE</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;tap属于2层协议，也就是他能够像读取文件一样获取拥有完整的数据包，包括以太网封装的mac目的地址和源地址等。拥有自己的&lt;code&gt;ip地址
-      
-    
-    </summary>
-    
-      <category term="net-protocol" scheme="http://blog.huido.site/categories/net-protocol/"/>
-    
-      <category term="8.问题反馈" scheme="http://blog.huido.site/categories/net-protocol/8-%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88/"/>
-    
-    
-      <category term="go" scheme="http://blog.huido.site/tags/go/"/>
-    
-      <category term="protocol" scheme="http://blog.huido.site/tags/protocol/"/>
-    
-      <category term="tap" scheme="http://blog.huido.site/tags/tap/"/>
-    
-      <category term="tun" scheme="http://blog.huido.site/tags/tun/"/>
-    
-      <category term="bridge" scheme="http://blog.huido.site/tags/bridge/"/>
     
   </entry>
   
