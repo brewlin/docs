@@ -11,4 +11,4 @@ Disallow: /libs/
 Disallow: /fonts/
 Disallow: /content.json
 Disallow: /404.html
-Sitemap: http://blog.huido.site/sitemap.xml
+Sitemap: http://wiki.brewlin.com/sitemap.xml
