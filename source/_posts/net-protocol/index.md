@@ -2,7 +2,7 @@
 title: index
 toc: false
 date: 2017-10-24 21:28:59
-tags: [Go,Protocol]
+tags: [go,protocol]
 ---
 # net-protocol
 https://github.com/brewlin/net-protocol
@@ -33,6 +33,12 @@ https://github.com/brewlin/net-protocol
 ## @物理层
 - [x] tun tap 虚拟网卡的实现
 
+## @客户端
+发起客户端请求
+- [x] http client 
+- [x] websocket client 
+- [x] tcp client
+- [ ] udp client
 ## 协议相关api
 ### 1.应用层相关协议
 应用层暂时只实现了`http`、`websocket`等文本协议。都基于tcp、对tcp等进行二次封装

@@ -2,7 +2,7 @@
 title: Logic 节点开放接口
 toc: false
 date: 2019-11-24 21:28:59
-tags: [php,swoole,corotinue,grpc,http]
+tags: [php,swoole,coroutine,grpc,http]
 ---
 
 ## http api接口

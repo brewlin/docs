@@ -2,7 +2,7 @@
 title: c扩展
 toc: true
 date: 2017-12-15 21:28:59
-tags: [c,c++,php,extension]
+tags: [c,c++,php,ext]
 ---
 
 

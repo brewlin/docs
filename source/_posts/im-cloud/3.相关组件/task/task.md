@@ -2,7 +2,7 @@
 title: task
 toc: true
 date: 2020-1-21 21:28:59
-tags: [php,swoole,corotinue,task]
+tags: [php,swoole,coroutine,task]
 ---
 
 ## @composer
