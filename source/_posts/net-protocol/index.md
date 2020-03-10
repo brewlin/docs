@@ -7,44 +7,47 @@ tags: [go,protocol]
 # net-protocol
 https://github.com/brewlin/net-protocol
 基于go 实现链路层、网络层、传输层、应用层 网络协议栈 ，使用虚拟网卡实现
-## @docs
+## @demo
 ```
-相关md文档在cmd目录下，以及相关协议的demo测试
+相关demo以及协议测试在cmd目录下
 ```
-`./cmd/*.md`
+`cd ./cmd/*`
 ## @application 应用层
-- [x] http 
-- [x] websocket 
-- [ ] dns
+- [x] [http](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [websocket](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [dns](http://wiki.brewlin.com/wiki/net-protocol/index/)
+
 
 ## @transport 传输层
-- [x] tcp 
-- [x] udp 
-- [x] port 端口机制
+- [x] [tcp](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [udp](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [port](http://wiki.brewlin.com/wiki/net-protocol/index/) 端口机制 
 
 ## @network 网络层
-- [x] icmp
-- [x] ipv4
-- [x] ipv6
+- [x] [icmp](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [ipv4](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [ipv6](http://wiki.brewlin.com/wiki/net-protocol/index/)
 
 ## @link 链路层
-- [x] arp 
-- [x] ethernet
+- [x] [arp](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [ethernet](http://wiki.brewlin.com/wiki/net-protocol/index/) 
 
 ## @物理层
-- [x] tun tap 虚拟网卡的实现
+- [x] tun [tap](http://wiki.brewlin.com/wiki/net-protocol/index/) 虚拟网卡的实现
 
 ## @客户端
 发起客户端请求
-- [x] http client 
-- [x] websocket client 
-- [x] tcp client
-- [x] udp client
-## 协议相关api
-### 1.应用层相关协议
-应用层暂时只实现了`http`、`websocket`等文本协议。都基于tcp、对tcp等进行二次封装
+- [x] [http client](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [websocket client](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [tcp client](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [udp client](http://wiki.brewlin.com/wiki/net-protocol/index/)
+- [x] [dns client](http://wiki.brewlin.com/wiki/net-protocol/index/)
+## 协议相关构体
 
-http api :
+### 1.应用层相关协议
+应用层暂时只实现了`http`、`websocket`、`dns`等协议。都基于tcp、对tcp等进行二次封装
+
+http protocol:
 ```
 	http 协议报文
 	GET /chat HTTP/1.1
@@ -56,7 +59,7 @@ http api :
 	Sec-WebSocket-Protcol: chat, superchat
 	Sec-WebSocket-Version: 13
 ```
-websocket api :
+websocket protocol:
 ```
 			websocket 数据帧报文
 
@@ -83,7 +86,7 @@ websocket api :
 ### 2.传输层相关协议
 传输层实现了`upd`、`tcp`、灯协议，并实现了主要接口
 
-tcp api:
+tcp protocol:
 
 ```
 		     tcp 首部协议报文
@@ -108,7 +111,7 @@ tcp api:
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
 
-udp-api:
+udp-protocol:
 ```
 udp 协议报文
 ```
@@ -118,7 +121,7 @@ udp 协议报文
 
 ### 3.网络层相关协议
 
-ip:
+ip protocol:
 ```
               ip头部协议报文
 0               1               2               3               4
