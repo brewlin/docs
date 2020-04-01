@@ -37,3 +37,5 @@ supoort:
 对原生php底层函数进行hook替换
 ## @`Lib/Thread/Pool` 
 线程池，可以在任何地方创建并投递后台任务进行处理
+## @`Lib/Thread/Pool/Future` 
+投递任务给线程池处理后，可以阻塞获取对应的返回值
