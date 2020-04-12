@@ -406,6 +406,9 @@ int main(){
 
 
 # 完整代码
+## zip完整代码
+code: [mempool.zip](/package/mem_pool/mempool.zip)
+## 简易预览
 ```c
 #include "palloc.h"
 
