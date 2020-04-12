@@ -391,7 +391,7 @@ HTTP_MODULES="$HTTP_MODULES ngx_http_print_module"
 NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_print_module.c"
 ```
 ## code 
-```
+```c
 #include "nginx.h"
 #include "ngx_config.h"
 #include "ngx_core.h"

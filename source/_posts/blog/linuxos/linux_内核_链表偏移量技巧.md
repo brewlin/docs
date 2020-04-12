@@ -14,7 +14,7 @@ tags: [linux,c,os]
         (type *)( (char *)__mptr - __offsetof(type,member) );})
 ```
 总的来说`ptr`一个`type`对象里面的`member`成员指针，现在如果你只有`member`成员的指针，但是`你想拿到type对象的地址`那么container_of就发挥了重要作用，如下图所示:
-![image](/images/linuxos/linux_link_os.png)
+![image](/images/blog/linuxos/linux_link_os.png)
 整个链表通过node指针串联起来，所以能够想到，当我们通过`*node`指针遍历所有的节点时，`我们怎么获取到整个对象的地址呢`答案当然是上面提到的`container_of`技巧:
 ```c
 //假如们已经遍历到了第一个node节点

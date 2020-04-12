@@ -367,7 +367,7 @@ pool_cleanup_t *pool_cleanup_add(pool_t *p, size_t size)
 3. 将当前事件链接到链表中，并返回用户该事件提供`注册回收函数，和回收数据`
 
 ## @clean_up demo
-```
+```c
 typedef struct {
     int              fd;
     u_char          *name;
@@ -406,7 +406,7 @@ int main(){
 
 
 # 完整代码
-```
+```c
 #include "palloc.h"
 
 static void *palloc_small(pool_t *pool, size_t size,uint_t align);
