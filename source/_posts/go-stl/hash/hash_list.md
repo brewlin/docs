@@ -1,7 +1,7 @@
 ---
 title: 哈希链表
 toc: true
-date: 2017-12-7 21:28:59
+date: 2018-12-7 21:28:59
 tags: [go,algorithm,hash,list]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: raft分布式一致性原理(一)
 toc: false
-date: 2017-10-26 21:28:59
+date: 2018-10-26 21:28:59
 tags: [go,raft,algorithm]
 ---
 

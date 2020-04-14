@@ -1,7 +1,7 @@
 ---
 title: 红黑树
 toc: true
-date: 2017-12-10 21:28:59
+date: 2018-12-10 21:28:59
 tags: [go,algorithm,tree,red-black-tree]
 ---
 

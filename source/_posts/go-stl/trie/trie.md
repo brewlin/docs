@@ -1,7 +1,7 @@
 ---
 title: 字典树
 toc: true
-date: 2017-10-24 21:28:59
+date: 2018-10-24 21:28:59
 tags: [go,algorithm,tree,trie]
 ---
 
