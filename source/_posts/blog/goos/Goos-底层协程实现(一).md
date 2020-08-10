@@ -63,7 +63,7 @@ function task()
 引用这里的文档:https://www.kancloud.cn/lifei6671/php-kernel/675135,来简单分析下函数的本质
 
 php函数实际对应于c语言的`zend_function`结构体:
-```
+```c
 typedef union  _zend_function        zend_function;
 
 //zend_compile.h
@@ -160,7 +160,7 @@ Stack grows down    |    |              |
 SS 栈段边界         0x00000
 ```
 1. main函数开始执行时从sp栈开始初开始存储，这个sp当前是栈内存区域的最大边界，没新增一个变量或者一些存储操作则进行 压栈操作，如:
-```
+```c
 #include <stdio.h>
 int main()
 {
@@ -181,7 +181,7 @@ main:
         ret
 ```
 2. 函数返回时的执行流程:
-```
+```c
 int test(){
     return 2;
 }
@@ -228,7 +228,7 @@ test:
 再来看看一个c语言函数被编译后的汇编指令，因为汇编语言已经是最底层的语法表达，基本就是二进制指令一一对应，所以可以用汇编来表示最底层的cpu指令
 
 下面是一个函数调用`test`和定义一个全局变量的例子
-```
+```c
 #include <stdio.h>
 
 char *str = "string data";
@@ -244,7 +244,7 @@ int main()
 }
 ```
 编译后的汇编
-```
+```assembly
 .LC0:
         .string "string data"
 str:
@@ -301,7 +301,7 @@ str:
 
 ## php创建协程
 php执行一个协程函数
-```
+```php
 function task()
 {
     echo "go task";
@@ -309,7 +309,7 @@ function task()
 go(task);
 ```
 c层面获取该函数`wrapper/coroutine.cpp`：
-```
+```c
 PHP_FUNCTION(go_create)
 {
     zend_fcall_info fci = empty_fcall_info;
@@ -326,7 +326,7 @@ PHP_FUNCTION(go_create)
 通过`PHP_FUNCTION`申明一个提供给php调用的api，`go`实际执行的是c的`go_create`。`fci,fcc`可以表示一个php传过来的函数参数.
 通过`PHPCoroutine::go`来初始化一个协程，并投递到调度器去执行
 
-```
+```c
 /coroutine/PHPCoroutine.cpp
 /**
  * 创建一个协程G运行
@@ -343,7 +343,7 @@ long PHPCoroutine::go(zend_function *func,zval *argv,uint32_t argc)
 1. 拷贝当前用户函数，因为多线程协程情况下已经采取了线程隔离`TSRM`,所以该闭包任务呗调度到其他线程执行时环境不同，且当前函数返回后可能被回收等因素，需要对用户的函数进行硬拷贝，拷贝会专门在线程隔离中说明。
 2. 创建一个`G`绑定当前php用户函数，等待投递调度
 
-```
+```c
 //coroutine/Coroutine.cpp
  * 投递到调度到其他线程CPU中去执行
  * @return
@@ -363,7 +363,7 @@ long Coroutine::run()
 
 # 全局队列与本地队列
 目前实现的多线程协程基于两个队列来调度任务，一个是全局队列，所有线程获取时需要枷锁，另外一个是本地队列，目前只处理被调度过的协程，不接受新协程投递
-```
+```c
 //runtime/proc.cpp
             unique_lock<mutex> lock(this->queue_mu);
             this->cond.wait(lock,[this,rq]{
@@ -391,7 +391,7 @@ long Coroutine::run()
 
 # 协程的释放
 协程的释放，目前协程的释放会回收c栈和php栈，会极大的影响性能，后面会实现c和php栈复用，更好的提高性能
-```
+```c
 //coroutine/coroutine.cpp
 void Coroutine::close()
 {
