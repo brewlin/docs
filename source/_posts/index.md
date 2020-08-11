@@ -16,7 +16,7 @@ categories:
 ## @[`im-cloud`](https://github.com/brewlin/im-cloud)
 原生swoole4 全协程化分布式中间件、多节点扩容、多节点服务
 
-## @['goos'](https://github.com/brewlin/goos)
+## @[`goos`](https://github.com/brewlin/goos)
 GPM 多线程协程调度器 for PHP Extension，multi-core concurrency library
 
 ## @[`c-ext`](hptts://github.com/brewlin/c-ext)
