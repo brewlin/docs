@@ -135,7 +135,7 @@ void Proc::schedule()
 
 ## 协程的创建执行
 针对新协程的执行:
-```
+```cpp
 //coroutine/Coroutine.cpp
 
 void Coroutine::newproc()
@@ -172,7 +172,7 @@ Context::Context(run_func func,void *data):_fn(func),func_data(data)
 2. 调用`make_context` 初始化该栈帧内存结构
 
 在实际执行用户传递的php函数前还有一个包装流程:
-```
+```cpp
 //runtime/Context.cpp
 
 /**
@@ -225,7 +225,7 @@ void make_context (asm_context *ctx, run_func fn, void *arg, void *sptr, size_t 
 
 # 协程切换的汇编解析
 协程切换的汇编实现为`/runtime/asm/jump_context.s`:
-```assembly
+```asm
 .text
 .globl jump_context
 jump_context:
@@ -256,7 +256,7 @@ jump_context:
 
 ## 保存上下文
 - 保存当前函数的上下文，对于程序上下文来说，其实细分到cpu，就是保存该函数时刻的寄存器对应的值和函数栈bp,sp的位置，基本靠这些就可以标明当前某个函数的执行状态了
-```
+```asm
 下面的6个寄存器应该符合调用者规约，也就是在调用其他函数前应该由调用者保存起来，防止在子函数中被篡改
 %rbx,%rbp,%r12,%r13,%r14,%r15
 
@@ -274,7 +274,7 @@ jump_context:
 ![image](/images/blog/goos/3-stack2.png)
 
 顺便提一下:通常如果参数比较少的话（一般6个作为界限），则通过寄存器进行传参数。顺序为:
-```
+```asm
 %rdi,%rsi,%rdx,%rcx,%r8,%r9 
 依次对应
 func(arg1,arg2,arg3,arg4,arg5,arg6);
@@ -290,7 +290,7 @@ func(arg1,arg2,arg3,arg4,arg5,arg6);
 
 而如果我们此时要进行协程调用，则需要将cpu的`sp`等寄存器切换到我们的协程B函数的栈祯首地址，那么cpu的执行流就会切换到协程B栈上执行，所有的变量内存都会依赖心的协程B栈，`注意`:毕竟协程B的栈是堆模拟出来的，所以是预分配有限制大小的内存，在使用的时候不要越栈，并且协程B栈执行完后一定要恢复到兄台你栈祯的继续执行
 
-```
+```asm
 movq %rsp, (%rdi)
 movq (%rsi), %rsp
 ```
@@ -300,7 +300,7 @@ movq (%rsi), %rsp
 ## 恢复环境上下文
 到这里已经切换到了协程栈，远离的系统栈，下面的汇编指令是实现恢复上下文寄存器，`在第一次协程创建的时候是空的`，但是当切换多次后就会发现，者6个寄存器永远保持上一个协程状态的环境
 
-```
+```asm
 popq %r15
 popq %r14
 popq %r13
