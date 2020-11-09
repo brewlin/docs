@@ -1,0 +1,326 @@
+---
+title: 什么是heaps
+toc: true
+date: 2020-11-09 21:28:59
+tags: [algorithm,gc,c]
+---
+`heap`也就是堆，本意应该是系统堆的概念的，现代的语言为了加快内存分配速度，基本上都会自己预先分配一块大内存，也可以叫做内存池。这块大内存就是用户态的堆
+
+在gc概念中就是heap,例如在标记类算法中，有一个gc环节叫做`清除(sweep)`，也就是回收垃圾，那么要实现这个功能，就要对`heap`进行遍历找出待回收的垃圾,所以这个堆就是我们用户态的一块大内存，非系统的堆
+
+heap有以下api:
+- `gc_malloc` 内存分配
+- `gc_free`   内存回收(搭载了gc的heap，不需要用户显示调用)
+- `is_pointer_to_heap` 是否是heap中申请的内存
+
+接下来看下当前是如何管理内存的
+
+# heap的结构
+![](/images/blog/gc-learning/FZMKKYQLAM.png)
+
+## 相关结构体
+`GC_HEAP`：维护堆信息
+```
+typedef struct gc_heap {
+    Header *slot;
+    size_t size;
+} GC_Heap;
+```
+1. `slot` 指向从操作系统申请的内存首地址,默认`4k`,也就是操作系统的一页大小
+2. `size` 每个heap的内存大小
+
+`Header`: 实际上每份分配的内存都是默认会用掉一个头部空间
+```c
+typedef struct header {
+    size_t ref;               //引用计数中使用，其他算法忽略
+    size_t flags;             //marked,remembered,copied
+    size_t size;              //当前内存块大小
+    size_t age;               //分代回收中使用，表示年龄
+    struct header *next_free; //回收链表中使用，指向下一个空闲内存
+    struct header *forwarding;//复制算法中使用, 指向拷贝后的新内存地址
+} Header;
+```
+为了更好的描述gc算法的实现，各种算法的公用标志都统一放到同一个header中，实际中肯定不能这么搞，太耗费空间了，很多都是用位来标记
+
+1. `ref` 在引用计数中代表被引用的次数
+2. `flags` 有多个位标记
+3. `size` 指示当前内存块的大小 注意:`size = sizeof(Header) + sizeof(Obj)` 是包含了当前头部信息了的
+4. `age` 分代回收中表示年龄
+5. `next_free` 指向下一个空闲的内存,在内存分配的时候直接通过该字段来遍历空闲内存
+6. `forwarding` 复制类算法中指向了新地址
+
+header头 每个用户申请的内存都有一个隐形的头部,例如: gc_alloc(16) 实际申请了 16 + sizeof(header) 那么返回给用户的地址其实是 ptr + sizeof(header).
+同样的也可以通过 ptr-sizeof(header) 拿到header头
+
+![](/images/blog/gc-learning/VBUXNWMHKD.png)
+
+
+## 宏定义和全局变量
+```c
+/* marco */
+#define  TINY_HEAP_SIZE 4 * 1024              //计算指针 所占内存大小
+#define  PTRSIZE ((size_t) sizeof(void *))
+#define  HEADER_SIZE ((size_t) sizeof(Header))//堆的上限
+#define  HEAP_LIMIT 100000                    //字节对齐 向上取整
+#define  ALIGN(x,a) (((x) + (a - 1)) & ~(a - 1))
+#define  NEXT_HEADER(x) ((Header *)((size_t)(x+1) + (x->size- HEADER_SIZE))) //[ [header] x->size [header] x->size ....]
+#define  CURRENT_HEADER(x) ((Header *)x - 1)
+
+```
+1. `ALIGN` 是向上进行地址对齐，`ALIGN(6,8) == 8, ALIGN(9,8) == 16`
+2. `NEXT_HEADER` 方便直接获取下一个连续内存地址
+3. `CURRENT_HEADER` 这个宏需要注意的一点是:需要自己保证传入的指针已经确认是堆里分配的，否则会导致不可预料的错误
+
+一些`flags` 标志位
+```c
+/* flags */
+#define  FL_ALLOC  0x1
+#define  FL_MARK   0x2
+#define  FL_COPIED 0x4
+#define  FL_REMEMBERED 0x8
+#define  FL_SET(x, f) (((Header *)x)->flags |= f)
+#define  FL_UNSET(x, f) (((Header *)x)->flags &= ~(f))
+#define  FL_TEST(x, f) (((Header *)x)->flags & f)
+#define  IS_MARKED(x) (FL_TEST(x, FL_ALLOC) && FL_TEST(x, FL_MARK))
+#define  IS_COPIED(x) (FL_TEST(x, FL_ALLOC) && FL_TEST(x, FL_COPIED))
+#define  IS_REMEMBERED(x) (FL_TEST(x, FL_ALLOC) && FL_TEST(x, FL_REMEMBERED))
+```
+
+一些全局变量
+```c
+/* global variable */
+extern   Header *free_list;
+extern   GC_Heap gc_heaps[HEAP_LIMIT];
+extern   size_t gc_heaps_used;
+extern   int auto_gc;                  //测试的时候 有时候需要关闭内存不够时执行gc
+extern   int auto_grow;                //测试的时候 有时候需要关闭内存不够时扩充堆
+```
+1. `free_list` 是一个单向链表，将所有heap的空闲空间串联起来,在执行`gc_malloc`时直接基于`first-fit`分配法遍历当前链表进行查找符合的大小内存,关于分配法:
+```
+- best-fit 遍历空闲链表，找出刚好符合那块内存，优点是减少了内存碎片，缺点是增加了分配时间
+- first-fit 找到第一块符合大小的空间，如果大于申请的则进行拆分，缺点显然是内存碎片
+- worse-fit 每次都去寻找最大的内存块 然后切割分配，增加了内存碎片 时间也不咋地，所以避免使用这种
+```
+2. `gc_heaps` 用户态堆，管理用户所有内存，默认每个heap 4k大小
+3. `auto_gc` 为了方便测试增加的开关，表示在内存不够时是否需要去执行`gc`
+4. `auto_grow` 为了方便测试，表示在内存不够时是否需要立即扩充堆，新增一个4k页大小
+
+# gc_malloc分配
+
+内存分配流程，从内存池中查找一块空闲内存返回给申请方，主要流程如下:
+1. 遍历`free_list`链表，找到大于等于当前内存的块
+2. 刚好满足则直接更新下返回即可，否则需要拆分块大小
+3. 步骤1没找到可用的块，则考虑进行gc
+4. 步骤3依然无可用块，则考虑扩充堆
+
+## 字节对齐
+```c
+//gc.c
+req_size += HEADER_SIZE;
+//对齐 字节
+req_size = ALIGN(req_size, PTRSIZE);
+```
+对申请的内存进行字节对齐,并且除了本身的size外，还要额外加上`header`的空间
+
+## 搜索块
+```c
+//gc.c
+
+//从空闲链表上去搜寻 空余空间
+prevp = free_list;
+//死循环 遍历
+for (p = prevp; p; prevp = p, p = p->next_free) {
+    //堆的内存足够
+    if (p->size >= req_size) 
+    {
+        if (p->size == req_size){
+            
+        }else{
+            
+        }
+    }
+        
+```
+直接遍历`free_list`空闲链表，前提是这个free_list已经将所有可用内存串联在一起了，而这些主要是在`gc_free`中做到的
+
+```c
+//gc.c
+
+// 从空闲列表上 移除当前的 堆，因为申请的大小刚好把堆消耗完了
+if (p->size == req_size){
+    if(p == prevp)
+        free_list = prevp = p->next_free;
+    else
+        prevp->next_free = p->next_free;    
+}else{
+    prevp = (void*)prevp + req_size;
+    memcpy(prevp,p,HEADER_SIZE);
+    prevp->size = p->size - req_size;    
+}
+```
+如果空闲块刚刚好，则直接将空闲块移除链表，然后返回即可
+
+如果空闲块比较大，则需要进行拆分,拆分从块起始处开始拆分
+
+```c
+p->size = req_size;
+free_list = prevp;
+//给新分配的p 设置为标志位 fl_alloc 为新分配的空间
+printf("%p\n",p);
+p->flags = 0;
+p->ref   = 1;
+FL_SET(p, FL_ALLOC);
+//设置年龄为0
+p->age = 0;
+p->forwarding = NULL;
+```
+这里是对新分配的块进行初始化操作，比如标志位置0等
+
+
+```c
+//gc.c
+
+if (!do_gc && auto_gc) {
+    gc();
+    do_gc = 1;
+    goto alloc;
+}else if(auto_grow){ //上面说明 执行了gc之后 内存依然不够用 那么需要扩充堆大小
+    p = gc_grow(req_size);
+    if(p != NULL) goto alloc;
+}
+```
+## 扩充堆&gc
+上面如果没有找到可用的空闲块，则需要考虑进行辅助操作，`gc or grow`
+
+接下来看看`grow`扩充一个堆的逻辑:
+```c
+//gc.c
+
+Header* gc_grow(size_t req_size)
+{
+    Header *cp, *up;
+
+    if (!(cp = add_heap(req_size))){
+        return NULL;
+    }
+
+    up = (Header *) cp;
+
+    if(free_list == NULL){
+        memset(up +  1,0,up->size - HEADER_SIZE);
+        free_list = up;
+        up->flags = 0;
+        return free_list;
+    }else{
+        gc_free((void *)(up+1));
+    }
+    return free_list;
+}
+```
+1. 通过`add_heap` 申请一块最小为`4k`的空间
+2. 如果空闲链表为空则直接替换上去，返回
+3. `gc_free`不但可以释放小内存块，也可以将新的堆串联到空闲链表上
+
+这里基本就完成了内存块的分配
+
+# gc_free释放
+释放的流程要稍微多一点，主要分为三个步骤:
+1. 格式化待释放的内存
+2. 找到内存所对应的位置
+3. 挂载的链表上后结束
+
+## 格式化
+
+格式化内存
+```c
+//gc.c
+
+void    gc_free(void *ptr)
+{
+    Header *target, *hit,*prevp;
+    //调用方需要保证内存是合法的当前堆内存，否则就会发生段错误
+    target = (Header *)ptr - 1;
+    //回收的数据立马清空
+    memset(ptr,0,target->size-HEADER_SIZE);
+    target->flags = 0;
+```
+## 特殊情况
+
+特殊情况一:free_list为空时直接替换free_list返回即可
+```c
+//空闲链表为空，直接将当前target挂到上面
+if(free_list == NULL){
+    free_list = target;
+    target->flags = 0;
+    return;
+}
+```
+特殊情况二:当前内存在free_list头部
+```c
+if(NEXT_HEADER(target) == free_list){
+    target->size += (free_list->size);
+    target->next_free = free_list->next_free;
+    free_list = target;
+    return;
+}
+```
+![](/images/blog/gc-learning/STMGAUIQAA.png)
+直接将当前`target`合并到空闲链表头部
+
+## 定位内存在堆中的位置
+定位待回收内存在堆中的位置，这个步骤是为了合并，相邻的两块内存必须要合并，否则会造成即使空闲空间足够但是依然不能够分配的窘迫
+![](/images/blog/gc-learning/BMZKONMDVQ.png)
+
+```c
+//搜索target可能在空闲链表上的区间位置
+prevp = free_list;
+for(hit = prevp; hit && hit->next_free ; prevp = hit,hit = hit->next_free)
+{
+    //刚好 target就在 [hit,hit->next_free] 之间
+    if(target >= hit && target <= hit->next_free){
+        break;
+    }
+    //跨堆的情况 说明target在两个堆之间 (heap1_end,heap2_start)
+    if(hit >= hit->next_free && (target > hit || target < hit->next_free))
+        break;
+}
+```
+主要分为4种情况:
+1. `target` 属于右区间
+
+![](/images/blog/gc-learning/XMJLYZNPYQ.png)
+```c
+//1. 判断右区间  如果target属于右区间 则合并
+if (NEXT_HEADER(target) == hit->next_free) {
+    target->size += hit->next_free->size;
+    target->next_free = hit->next_free->next_free;
+}else {
+    target->next_free = hit->next_free;
+}
+```
+这个时候说明`NEXT_HEADER(target) == hit->next_free`成立，需要合并`target + hit->next_free`
+
+2. `target`不属于右区间
+
+如果右区间没有相邻，则直接插入`hit->next_free`前就行了
+
+3. `target` 属于左区间
+
+![](/images/blog/gc-learning/GSPPCNNPCH.png)
+```c
+//2. 判断左区间  如果target属于左区间 则合并
+if (NEXT_HEADER(hit) == target) {
+    /* merge */
+    hit->size += target->size;
+    hit->next_free = target->next_free;
+}else {
+    hit->next_free = target;
+}
+```
+这个时候`NEXT_HEADER(hit) == target`成立，合并左区间
+
+4. `target` 不属于左区间
+
+直接挂在hit后就可以了
+
+如果是新初始化的扩充堆基本上都不会触发上面的条件，直接挂到`free_list`尾节点即可
