@@ -15,7 +15,7 @@ import (
 	"time"
 	"log"
 )
-var apath = "/images/blog/graph/"
+var apath = "/images/blog/gc-learning/"
 var YNOTE_LOGIN = "5||1604911447813"
 var YNOTE_SESS  = "v2|V3AsxsVOj0PShMOfk4OfRUMk4OGO4gZ0lf6LOfk4JF0gLn4J4hHeuRJFP4YlhM6uRlWRfPK6MYMRQF646KhMYM0JuRLYGRHwLR"
 //http请求
