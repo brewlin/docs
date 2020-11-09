@@ -2,7 +2,7 @@
 title: linux_内核_链表偏移量技巧
 toc: true
 date: 2020-04-10 21:28:59
-tags: [linux,c,os]
+tags: [php,linux,c,os]
 ---
 # @container_of 定义
 在看`linux_os_link.c`内核链表的时候，看到的一个高级技巧，`通过结构体偏移量`定位实际对象的指针地址
