@@ -23,10 +23,9 @@ GPM 多线程协程调度器 for PHP Extension，multi-core concurrency library
 ## @`read`
 相关读书笔记
 
-
 ## @[`swoole-im`](https://github.com/brewlin/swoft-im)
-- [swoft-version](https://github.com/brewlin/swoft-im) [`swoft聊天室`](http://chat.huido.site)
-- [swoole-version](https://github.com/brewlin/swoole-im) [`swoole聊天室`](http://im.huido.site)
+- [swoft-version](https://github.com/brewlin/swoft-im) [`swoft聊天室`](http://chat.brewlin.com)
+- [swoole-version](https://github.com/brewlin/swoole-im) [`swoole聊天室`](http://im.brewlin.com)
 
 ## @[`go-stl`](https://github.com/brewlin/go-stl)
 Golang Standard Template Library
