@@ -25,9 +25,8 @@ GPM 多线程协程调度器 for PHP Extension，multi-core concurrency library
 
 
 ## @[`swoole-im`](https://github.com/brewlin/swoft-im)
-基于swoft-cloud的微服务架构，最小化拆分粒度，PHP7、多进程、协程、异步任务、mysql连接池、redi连接池、rpc连接池、服务治理、服务注册与发现、Aop切面、全注解 
-- [`swoft聊天室`](http://chat.huido.site)
-- [`swoole聊天室`](http://im.huido.site)
+- [swoft-version](https://github.com/brewlin/swoft-im) [`swoft聊天室`](http://chat.huido.site)
+- [swoole-version](https://github.com/brewlin/swoole-im) [`swoole聊天室`](http://im.huido.site)
 
 ## @[`go-stl`](https://github.com/brewlin/go-stl)
 Golang Standard Template Library
