@@ -2,3 +2,8 @@ scaffolds/* linguist-vendored
 scripts/* linguist-vendored
 source/* linguist-vendored
 themes/Wikitten/* linguist-vendored
+themes/Wikitten/source/js/* linguist-vendored
+themes/Wikitten/source/libs/lightgallery/js/* linguist-vendored
+themes/Wikitten/scripts/* linguist-vendored
+themes/Wikitten/source/libs/lightgallery/js/* linguist-vendored
+themes/Wikitten/source/libs/lightgallery/js/* linguist-vendored
