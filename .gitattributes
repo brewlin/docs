@@ -1,4 +1,4 @@
-*.js linguist-vendored
-*.css linguist-vendored
-*.html linguist-vendored
-*.styl linguist-vendored
+scaffolds/* linguist-vendored
+script/* linguist-vendored
+source/* linguist-vendored
+themes/Wikitten/* linguist-vendored
