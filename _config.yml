@@ -75,6 +75,7 @@ pagination_dir: page
 ##  pages show count details setting
 index_generator:
   per_page: 5
+  order_by: -date
 
 archive_generator:
   per_page: infinity
