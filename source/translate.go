@@ -15,9 +15,9 @@ import (
 	"time"
 	"log"
 )
-var apath = "/images/blog/gc-learning/"
-var YNOTE_LOGIN = "5||1604911447813"
-var YNOTE_SESS  = "v2|V3AsxsVOj0PShMOfk4OfRUMk4OGO4gZ0lf6LOfk4JF0gLn4J4hHeuRJFP4YlhM6uRlWRfPK6MYMRQF646KhMYM0JuRLYGRHwLR"
+var apath = "images/blog/graph/"
+var YNOTE_LOGIN = "3||1612794380733"
+var YNOTE_SESS  = "v2|KY9LgmhYr0zWkMgFnLPBRpuRfqyhfQL0Ty6Llf6MgS06uO4Qu0HgF06F6Lqukfey0qunLwKOLlfRquOLpLn4gL0Y5kMP40fwz0"
 //http请求
 func RandString(len int) string {
     r := rand.New(rand.NewSource(time.Now().UnixNano()))
@@ -54,7 +54,7 @@ func httpHandle(method, urlVal string) string {
 	defer resp.Body.Close()
 	b, _ := ioutil.ReadAll(resp.Body)
 	name := RandString(10)+".png"
-	savepath := "/git/docs/source"+ apath +name
+	savepath := apath +name
 	ioutil.WriteFile(savepath, b, 0666)
 	fmt.Println(savepath)
 	return apath+name
