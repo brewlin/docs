@@ -57,7 +57,7 @@ func httpHandle(method, urlVal string) string {
 	savepath := apath +name
 	ioutil.WriteFile(savepath, b, 0666)
 	fmt.Println(savepath)
-	return apath+name
+	return "/"+apath+name
 
 }
  
