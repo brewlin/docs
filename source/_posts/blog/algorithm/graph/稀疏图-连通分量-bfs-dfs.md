@@ -2,7 +2,7 @@
 title: 稀疏图-连通分量-bfs-dfs
 toc: true
 date: 2021-02-09 22:50:11
-tags: [algorithm,graph]
+tags: [algorithm,graph,c]
 ---
 [toc]
 

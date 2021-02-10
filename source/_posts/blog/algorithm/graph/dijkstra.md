@@ -2,7 +2,7 @@
 title: Dijkstra最短路径
 toc: true
 date: 2021-02-06 17:50:43
-tags: [algorithm,graph,golang]
+tags: [algorithm,graph,c]
 ---
 
 dijkstra利用松弛操作找到最短的路线距离，假设当前图结构为稀疏图，结构如下:
