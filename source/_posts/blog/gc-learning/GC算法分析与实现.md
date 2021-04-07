@@ -4,7 +4,7 @@ toc: true
 date: 2020-11-09 21:28:59
 tags: [algorithm,gc,c]
 ---
-github: https://github.com/brewlin/gc-learning
+github: https://github.com/brewlin/garbage-collect
 
 本系列文章主要阅读`垃圾回收的算法与实现`一书进行的实现解说，主要因为之前没有完整的gc算法实现的代码样例，书中各种实现都是基于伪码讲解，虽能理解作者的意思但难免还是有些抽象
 
